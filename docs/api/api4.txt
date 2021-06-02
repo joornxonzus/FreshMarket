@@ -1,0 +1,991 @@
+POST http://mapi.yiguo.com/MobileApi.aspx?token=CA0C4043E9594934BB51BCE0AD9D36EB&v=3.8&os=android
+&sign=247076eba3f0203f5b0818108b320d7a HTTP/1.1
+
+请求
+
+Accept: text/xml;text/html;*/*
+Content-Type: text/xml;charset=utf-8
+Content-Length: 433
+User-Agent: Dalvik/2.1.0 (Linux; U; Android 5.1.1; E6883 Build/32.0.A.6.209)
+Host: mapi.yiguo.com
+Connection: Keep-Alive
+Accept-Encoding: gzip
+
+{
+    "Head": {
+        "Version": "3.8",
+        "PostTime": "2016-04-17 17:32:00",
+        "APICode": "yiguo.mapi.app.city.list.get",
+        "PageNo": "1",
+        "PageSize": "20",
+        "PageCount": "0",
+        "UseGZip": "0",
+        "RspMsg": "",
+        "RspCode": "1",
+        "RspFormat": "1",
+        "DeviceId": "797871e022dabd51",
+        "IMEI": "352430071233061",
+        "MobileOS": "1",
+        "MobileOSVer": "E6883,5.1.1,22",
+        "NetworkType": "wifi",
+        "UserName": "",
+        "UserId": "",
+        "CityCode": "1",
+        "CityId": "312d0556-0671-4f2e-8bac-7b8873b5a03a",
+        "Token": ""
+    },
+    "Body": {}
+}
+
+回应
+
+HTTP/1.1 200 OK
+Cache-Control: private
+Content-Length: 22262
+Content-Type: text/html
+Vary: Accept-Encoding
+Server: Microsoft-IIS/7.5
+Set-Cookie: ASP.NET_SessionId=jdrtffwivdmluijk43oywbzb; path=/; HttpOnly
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+X-Powered-By: ARR/2.5
+X-Powered-By: ASP.NET
+Date: Sun, 17 Apr 2016 09:32:17 GMT
+
+{
+  "Head": {
+    "Version": "3.8",
+    "PostTime": "2016-04-17 17:32:18",
+    "APICode": "yiguo.mapi.app.city.list.get",
+    "PageNo": "0",
+    "PageSize": "0",
+    "PageCount": "0",
+    "UseGZip": "0",
+    "RspCode": "1",
+    "RspMsg": "OK",
+    "RspFormat": "1",
+    "IMEI": "",
+    "DeviceId": "",
+    "MobileOS": "0",
+    "MobileOSVer": "",
+    "NetworkType": "",
+    "UserId": "",
+    "UserName": "",
+    "CityCode": "1",
+    "CityId": "312d0556-0671-4f2e-8bac-7b8873b5a03a",
+    "Token": ""
+  },
+  "Body": {
+    "Citys": [
+      {
+        "Id": "312d0556-0671-4f2e-8bac-7b8873b5a03a",
+        "Name": "上海",
+        "Code": "1",
+        "PY": "#",
+        "DC": {}
+      },
+      {
+        "Id": "eabbe02f-59e0-46e6-90e7-cd8a89dbb98f",
+        "Name": "北京",
+        "Code": "2",
+        "PY": "#",
+        "DC": {}
+      },
+      {
+        "Id": "93570b8c-0a0a-4818-8317-75a0d14093a5",
+        "Name": "天津",
+        "Code": "8",
+        "PY": "#",
+        "DC": {}
+      },
+      {
+        "Id": "9069d884-96c5-4478-bb49-d6ba55b751c8",
+        "Name": "南京",
+        "Code": "128",
+        "PY": "#",
+        "DC": {
+          "YD": {
+            "Code": "128",
+            "Text": "鼓楼区 秦淮区 建邺区 玄武区",
+            "TextArray": [
+              "鼓楼区",
+              "秦淮区",
+              "建邺区",
+              "玄武区"
+            ]
+          },
+          "TD": {
+            "Code": "4",
+            "Text": "白下区 江宁区 溧水区 下关区 栖霞区 雨花台区 浦口区 高淳县 六合区",
+            "TextArray": [
+              "白下区",
+              "江宁区",
+              "溧水区",
+              "下关区",
+              "栖霞区",
+              "雨花台区",
+              "浦口区",
+              "高淳县",
+              "六合区"
+            ]
+          }
+        }
+      },
+      {
+        "Id": "c0a5de4e-9087-4678-9056-f589ad833656",
+        "Name": "宁波",
+        "Code": "128",
+        "PY": "#",
+        "DC": {}
+      },
+      {
+        "Id": "361bc174-b1e5-4fb6-8f69-c391dcd92644",
+        "Name": "无锡",
+        "Code": "128",
+        "PY": "#",
+        "DC": {}
+      },
+      {
+        "Id": "dec5b754-fe58-48d6-8b37-6bc91ee08460",
+        "Name": "苏州",
+        "Code": "128",
+        "PY": "#",
+        "DC": {}
+      },
+      {
+        "Id": "0dbb02ef-c055-429f-97b6-5dc7a5bfeda8",
+        "Name": "昆山",
+        "Code": "128",
+        "PY": "#",
+        "DC": {}
+      },
+      {
+        "Id": "a10524be-acea-451e-9280-df0514e11e2b",
+        "Name": "杭州",
+        "Code": "128",
+        "PY": "#",
+        "DC": {
+          "YD": {
+            "Code": "128",
+            "Text": "下城区 上城区 西湖区 滨江区 江干区 拱墅区 余杭区 萧山区",
+            "TextArray": [
+              "下城区",
+              "上城区",
+              "西湖区",
+              "滨江区",
+              "江干区",
+              "拱墅区",
+              "余杭区",
+              "萧山区"
+            ]
+          },
+          "TD": {
+            "Code": "4",
+            "Text": "淳安县 临安市 富阳市 桐庐县 建德市",
+            "TextArray": [
+              "淳安县",
+              "临安市",
+              "富阳市",
+              "桐庐县",
+              "建德市"
+            ]
+          }
+        }
+      },
+      {
+        "Id": "20c2f64b-c91f-4095-8fb4-3f1fbbb55f82",
+        "Name": "东莞",
+        "Code": "512",
+        "PY": "#",
+        "DC": {}
+      },
+      {
+        "Id": "6a637459-eca9-46b8-964d-35c11cad039a",
+        "Name": "佛山",
+        "Code": "512",
+        "PY": "#",
+        "DC": {}
+      },
+      {
+        "Id": "49c234d6-d1c7-4b9d-be06-e2ebd08e4618",
+        "Name": "肇庆",
+        "Code": "512",
+        "PY": "#",
+        "DC": {}
+      },
+      {
+        "Id": "29bd9fa7-274c-4257-85e2-a22e2cd1d2ce",
+        "Name": "中山",
+        "Code": "512",
+        "PY": "#",
+        "DC": {}
+      },
+      {
+        "Id": "0718b3bf-b99b-4aa4-97bd-4a4da0b92464",
+        "Name": "珠海",
+        "Code": "512",
+        "PY": "#",
+        "DC": {}
+      },
+      {
+        "Id": "f7330b43-1177-4686-9a04-9f5176d046e3",
+        "Name": "清远",
+        "Code": "512",
+        "PY": "#",
+        "DC": {}
+      },
+      {
+        "Id": "43ba3517-6aa8-423b-9f02-a3b0fd681740",
+        "Name": "江门",
+        "Code": "512",
+        "PY": "#",
+        "DC": {}
+      },
+      {
+        "Id": "63179983-02f7-44a3-a69f-0f9589e44a35",
+        "Name": "惠州",
+        "Code": "512",
+        "PY": "#",
+        "DC": {}
+      },
+      {
+        "Id": "0540d74e-0ffb-4a3a-ab79-ec590dd49947",
+        "Name": "深圳",
+        "Code": "512",
+        "PY": "#",
+        "DC": {}
+      },
+      {
+        "Id": "c8dbd17f-a8e0-43b1-b9ce-de1efdc2670e",
+        "Name": "广州",
+        "Code": "512",
+        "PY": "#",
+        "DC": {}
+      },
+      {
+        "Id": "78d6e5b9-669d-481f-b395-cea5e1e6e5a0",
+        "Name": "安庆",
+        "Code": "16",
+        "PY": "A",
+        "DC": {}
+      },
+      {
+        "Id": "eabbe02f-59e0-46e6-90e7-cd8a89dbb98f",
+        "Name": "北京",
+        "Code": "2",
+        "PY": "B",
+        "DC": {}
+      },
+      {
+        "Id": "daf7b0e2-35ea-4183-93e2-03dd4e7211d0",
+        "Name": "滨州",
+        "Code": "32",
+        "PY": "B",
+        "DC": {}
+      },
+      {
+        "Id": "15b6c4e6-69f2-4001-a631-62c0c36102b1",
+        "Name": "北京(郊区)",
+        "Code": "32",
+        "PY": "B",
+        "DC": {}
+      },
+      {
+        "Id": "25123e41-42e0-40e5-b2bd-76ba94daa655",
+        "Name": "长春",
+        "Code": "32",
+        "PY": "C",
+        "DC": {}
+      },
+      {
+        "Id": "8a72d144-cc9b-42b4-884e-393854bb15ee",
+        "Name": "慈溪",
+        "Code": "4",
+        "PY": "C",
+        "DC": {}
+      },
+      {
+        "Id": "e450593b-b52f-4233-b106-cb518acb3896",
+        "Name": "长沙",
+        "Code": "16",
+        "PY": "C",
+        "DC": {}
+      },
+      {
+        "Id": "ee36933d-939f-4f6b-8a2b-d060ee9ca495",
+        "Name": "沧州",
+        "Code": "32",
+        "PY": "C",
+        "DC": {}
+      },
+      {
+        "Id": "708f0b6e-91f2-4731-8576-07c78ea08351",
+        "Name": "成都",
+        "Code": "16",
+        "PY": "C",
+        "DC": {}
+      },
+      {
+        "Id": "7c046210-81f3-4638-a09b-6b2e8ecbe957",
+        "Name": "重庆",
+        "Code": "16",
+        "PY": "C",
+        "DC": {}
+      },
+      {
+        "Id": "05037210-573c-436b-b24a-9d345dca54f7",
+        "Name": "常熟",
+        "Code": "4",
+        "PY": "C",
+        "DC": {}
+      },
+      {
+        "Id": "a338e3c1-e7e7-4482-b248-c5875b22a27b",
+        "Name": "常州",
+        "Code": "4",
+        "PY": "C",
+        "DC": {}
+      },
+      {
+        "Id": "3220a369-6a2d-4415-a46a-75a699214736",
+        "Name": "大连",
+        "Code": "32",
+        "PY": "D",
+        "DC": {}
+      },
+      {
+        "Id": "dd7cbdb8-6463-436f-ba09-93c69150f137",
+        "Name": "东营",
+        "Code": "32",
+        "PY": "D",
+        "DC": {}
+      },
+      {
+        "Id": "8f1e3541-74b4-4993-b242-a2bf9bf15d0d",
+        "Name": "德州",
+        "Code": "32",
+        "PY": "D",
+        "DC": {}
+      },
+      {
+        "Id": "20c2f64b-c91f-4095-8fb4-3f1fbbb55f82",
+        "Name": "东莞",
+        "Code": "512",
+        "PY": "D",
+        "DC": {}
+      },
+      {
+        "Id": "6a637459-eca9-46b8-964d-35c11cad039a",
+        "Name": "佛山",
+        "Code": "512",
+        "PY": "F",
+        "DC": {}
+      },
+      {
+        "Id": "c7f7d216-b6aa-4287-84ec-8d8cd0dbec04",
+        "Name": "奉化",
+        "Code": "4",
+        "PY": "F",
+        "DC": {}
+      },
+      {
+        "Id": "46e851bf-6fb4-4250-8c90-4f7774a176f1",
+        "Name": "福州",
+        "Code": "16",
+        "PY": "F",
+        "DC": {}
+      },
+      {
+        "Id": "c8dbd17f-a8e0-43b1-b9ce-de1efdc2670e",
+        "Name": "广州",
+        "Code": "512",
+        "PY": "G",
+        "DC": {}
+      },
+      {
+        "Id": "9fb6eac6-ea03-409b-89d9-e13c27e01576",
+        "Name": "湖州",
+        "Code": "4",
+        "PY": "H",
+        "DC": {}
+      },
+      {
+        "Id": "3c2af8a1-c3eb-418b-97ee-e5f92c44f8ad",
+        "Name": "淮安",
+        "Code": "4",
+        "PY": "H",
+        "DC": {}
+      },
+      {
+        "Id": "f2b41b20-c240-4e27-a7b4-5828f8fca3e9",
+        "Name": "合肥",
+        "Code": "16",
+        "PY": "H",
+        "DC": {}
+      },
+      {
+        "Id": "7254d134-678b-4976-86f0-520fab6bcc46",
+        "Name": "海宁",
+        "Code": "4",
+        "PY": "H",
+        "DC": {}
+      },
+      {
+        "Id": "4e09d210-7744-44fe-a45f-1e166aa92c2c",
+        "Name": "菏泽",
+        "Code": "32",
+        "PY": "H",
+        "DC": {}
+      },
+      {
+        "Id": "63179983-02f7-44a3-a69f-0f9589e44a35",
+        "Name": "惠州",
+        "Code": "512",
+        "PY": "H",
+        "DC": {}
+      },
+      {
+        "Id": "18cd4b6e-a0c3-4190-9988-c724c1da8bf5",
+        "Name": "哈尔滨",
+        "Code": "32",
+        "PY": "H",
+        "DC": {}
+      },
+      {
+        "Id": "a10524be-acea-451e-9280-df0514e11e2b",
+        "Name": "杭州",
+        "Code": "128",
+        "PY": "H",
+        "DC": {
+          "YD": {
+            "Code": "128",
+            "Text": "下城区 上城区 西湖区 滨江区 江干区 拱墅区 余杭区 萧山区",
+            "TextArray": [
+              "下城区",
+              "上城区",
+              "西湖区",
+              "滨江区",
+              "江干区",
+              "拱墅区",
+              "余杭区",
+              "萧山区"
+            ]
+          },
+          "TD": {
+            "Code": "4",
+            "Text": "淳安县 临安市 富阳市 桐庐县 建德市",
+            "TextArray": [
+              "淳安县",
+              "临安市",
+              "富阳市",
+              "桐庐县",
+              "建德市"
+            ]
+          }
+        }
+      },
+      {
+        "Id": "4673dd12-4056-4590-8267-8c0aff24b792",
+        "Name": "嘉善",
+        "Code": "4",
+        "PY": "J",
+        "DC": {}
+      },
+      {
+        "Id": "91c38a9c-30e0-4e44-af39-9b5d49928509",
+        "Name": "景德镇",
+        "Code": "16",
+        "PY": "J",
+        "DC": {}
+      },
+      {
+        "Id": "ddd4e4d0-afb3-46c6-8aa6-6257c8ce9bee",
+        "Name": "嘉兴",
+        "Code": "4",
+        "PY": "J",
+        "DC": {}
+      },
+      {
+        "Id": "72f8f62e-e5cb-418f-9419-a542c409d122",
+        "Name": "江阴",
+        "Code": "4",
+        "PY": "J",
+        "DC": {}
+      },
+      {
+        "Id": "c64e3be4-5e14-4a74-ae4f-f6cd366ae624",
+        "Name": "济宁",
+        "Code": "32",
+        "PY": "J",
+        "DC": {}
+      },
+      {
+        "Id": "97fe0ada-54d3-4b5f-9096-19ad57929d07",
+        "Name": "济南",
+        "Code": "32",
+        "PY": "J",
+        "DC": {}
+      },
+      {
+        "Id": "69417568-9e3a-49c6-b21d-5282b7239922",
+        "Name": "吉林",
+        "Code": "32",
+        "PY": "J",
+        "DC": {}
+      },
+      {
+        "Id": "43ba3517-6aa8-423b-9f02-a3b0fd681740",
+        "Name": "江门",
+        "Code": "512",
+        "PY": "J",
+        "DC": {}
+      },
+      {
+        "Id": "1e07c926-06e9-40cd-b257-a78d1d313ae7",
+        "Name": "金华",
+        "Code": "4",
+        "PY": "J",
+        "DC": {}
+      },
+      {
+        "Id": "0dbb02ef-c055-429f-97b6-5dc7a5bfeda8",
+        "Name": "昆山",
+        "Code": "128",
+        "PY": "K",
+        "DC": {}
+      },
+      {
+        "Id": "b2d5732b-b0f8-4fdf-b011-b95b31effa1d",
+        "Name": "连云港",
+        "Code": "4",
+        "PY": "L",
+        "DC": {}
+      },
+      {
+        "Id": "fec2b413-bdf1-4c6d-98ec-d2de0f237be0",
+        "Name": "莱芜",
+        "Code": "32",
+        "PY": "L",
+        "DC": {}
+      },
+      {
+        "Id": "afbcecb5-0f4c-4e28-aeb4-53372dd301a7",
+        "Name": "临沂",
+        "Code": "32",
+        "PY": "L",
+        "DC": {}
+      },
+      {
+        "Id": "b0efaf6f-ec54-4264-b0a5-2012a9ec7ee8",
+        "Name": "丽水",
+        "Code": "4",
+        "PY": "L",
+        "DC": {}
+      },
+      {
+        "Id": "8edda15e-0e21-436c-978d-68eb5bb14ef7",
+        "Name": "兰州",
+        "Code": "32",
+        "PY": "L",
+        "DC": {}
+      },
+      {
+        "Id": "297c5d78-4d09-42cc-ac13-8421f201b6a9",
+        "Name": "辽阳",
+        "Code": "32",
+        "PY": "L",
+        "DC": {}
+      },
+      {
+        "Id": "7f21282c-4bd0-45c0-a195-87663f9c27eb",
+        "Name": "廊坊",
+        "Code": "256",
+        "PY": "L",
+        "DC": {}
+      },
+      {
+        "Id": "bc3c25d7-7308-40aa-8fd7-60b96ba87bf4",
+        "Name": "聊城",
+        "Code": "32",
+        "PY": "L",
+        "DC": {}
+      },
+      {
+        "Id": "45a989b7-d34e-40c7-aca1-990923eda2cd",
+        "Name": "马鞍山",
+        "Code": "4",
+        "PY": "M",
+        "DC": {}
+      },
+      {
+        "Id": "603d28a7-b4c8-4a13-823f-d627c2655557",
+        "Name": "南通",
+        "Code": "4",
+        "PY": "N",
+        "DC": {}
+      },
+      {
+        "Id": "c0a5de4e-9087-4678-9056-f589ad833656",
+        "Name": "宁波",
+        "Code": "128",
+        "PY": "N",
+        "DC": {}
+      },
+      {
+        "Id": "9069d884-96c5-4478-bb49-d6ba55b751c8",
+        "Name": "南京",
+        "Code": "128",
+        "PY": "N",
+        "DC": {
+          "YD": {
+            "Code": "128",
+            "Text": "鼓楼区 秦淮区 建邺区 玄武区",
+            "TextArray": [
+              "鼓楼区",
+              "秦淮区",
+              "建邺区",
+              "玄武区"
+            ]
+          },
+          "TD": {
+            "Code": "4",
+            "Text": "白下区 江宁区 溧水区 下关区 栖霞区 雨花台区 浦口区 高淳县 六合区",
+            "TextArray": [
+              "白下区",
+              "江宁区",
+              "溧水区",
+              "下关区",
+              "栖霞区",
+              "雨花台区",
+              "浦口区",
+              "高淳县",
+              "六合区"
+            ]
+          }
+        }
+      },
+      {
+        "Id": "75fbd2c7-8cbc-4bbd-94ef-5eb037a75be5",
+        "Name": "南昌",
+        "Code": "16",
+        "PY": "N",
+        "DC": {}
+      },
+      {
+        "Id": "7cd187b5-8b3f-4c1a-8115-24a5e2d18f3a",
+        "Name": "南宁",
+        "Code": "64",
+        "PY": "N",
+        "DC": {}
+      },
+      {
+        "Id": "7ced387b-577d-4060-83d1-13b78f60ff53",
+        "Name": "青岛",
+        "Code": "32",
+        "PY": "Q",
+        "DC": {}
+      },
+      {
+        "Id": "2b3763ec-2491-4ee0-97a6-20cf70f81933",
+        "Name": "泉州",
+        "Code": "16",
+        "PY": "Q",
+        "DC": {}
+      },
+      {
+        "Id": "5d9e78ba-c583-4962-b279-2a8948df9ee1",
+        "Name": "秦皇岛",
+        "Code": "32",
+        "PY": "Q",
+        "DC": {}
+      },
+      {
+        "Id": "4693602d-80d7-4b72-b3b5-ca6a26f051f1",
+        "Name": "衢州",
+        "Code": "4",
+        "PY": "Q",
+        "DC": {}
+      },
+      {
+        "Id": "f7330b43-1177-4686-9a04-9f5176d046e3",
+        "Name": "清远",
+        "Code": "512",
+        "PY": "Q",
+        "DC": {}
+      },
+      {
+        "Id": "d1bcc39a-7383-40ca-add9-ee3feb38b677",
+        "Name": "日照",
+        "Code": "32",
+        "PY": "R",
+        "DC": {}
+      },
+      {
+        "Id": "dec5b754-fe58-48d6-8b37-6bc91ee08460",
+        "Name": "苏州",
+        "Code": "128",
+        "PY": "S",
+        "DC": {}
+      },
+      {
+        "Id": "28eab84c-07bf-439f-bb96-92274545c77b",
+        "Name": "石家庄",
+        "Code": "256",
+        "PY": "S",
+        "DC": {}
+      },
+      {
+        "Id": "df2e0859-ed44-4e81-95a5-1c8b59381b99",
+        "Name": "绍兴",
+        "Code": "4",
+        "PY": "S",
+        "DC": {}
+      },
+      {
+        "Id": "98373b1b-201c-4753-b540-14bb1cd6564e",
+        "Name": "上海(郊区)",
+        "Code": "16",
+        "PY": "S",
+        "DC": {}
+      },
+      {
+        "Id": "7e8111e6-d7ce-41ce-a660-3033ab81705c",
+        "Name": "宿迁",
+        "Code": "4",
+        "PY": "S",
+        "DC": {}
+      },
+      {
+        "Id": "191a03f0-5acf-4bba-8d79-551fa80f77c2",
+        "Name": "沈阳",
+        "Code": "32",
+        "PY": "S",
+        "DC": {}
+      },
+      {
+        "Id": "312d0556-0671-4f2e-8bac-7b8873b5a03a",
+        "Name": "上海",
+        "Code": "1",
+        "PY": "S",
+        "DC": {}
+      },
+      {
+        "Id": "0540d74e-0ffb-4a3a-ab79-ec590dd49947",
+        "Name": "深圳",
+        "Code": "512",
+        "PY": "S",
+        "DC": {}
+      },
+      {
+        "Id": "245dccf7-34cb-466f-aa68-45a242927e18",
+        "Name": "太原",
+        "Code": "32",
+        "PY": "T",
+        "DC": {}
+      },
+      {
+        "Id": "63ae9bcf-002f-4514-b052-66702274b1c7",
+        "Name": "泰安",
+        "Code": "32",
+        "PY": "T",
+        "DC": {}
+      },
+      {
+        "Id": "93570b8c-0a0a-4818-8317-75a0d14093a5",
+        "Name": "天津",
+        "Code": "8",
+        "PY": "T",
+        "DC": {}
+      },
+      {
+        "Id": "5fddc946-9a0c-4dad-bc92-5e05aa5658cd",
+        "Name": "台州",
+        "Code": "4",
+        "PY": "T",
+        "DC": {}
+      },
+      {
+        "Id": "17ee7ac2-d7ce-4c02-80ea-1babea0a8933",
+        "Name": "唐山",
+        "Code": "32",
+        "PY": "T",
+        "DC": {}
+      },
+      {
+        "Id": "6ba21255-37f7-4619-859c-fde2bb914c4c",
+        "Name": "泰州",
+        "Code": "4",
+        "PY": "T",
+        "DC": {}
+      },
+      {
+        "Id": "0d920097-3f8a-4ac5-8d48-c7ba7b344ab3",
+        "Name": "桐乡",
+        "Code": "16",
+        "PY": "T",
+        "DC": {}
+      },
+      {
+        "Id": "33b3203d-c4b6-4c91-abd0-f3f0a226e461",
+        "Name": "吴江",
+        "Code": "4",
+        "PY": "W",
+        "DC": {}
+      },
+      {
+        "Id": "361bc174-b1e5-4fb6-8f69-c391dcd92644",
+        "Name": "无锡",
+        "Code": "128",
+        "PY": "W",
+        "DC": {}
+      },
+      {
+        "Id": "556550b5-ea16-4b86-9ecd-1b66d20b297b",
+        "Name": "潍坊",
+        "Code": "32",
+        "PY": "W",
+        "DC": {}
+      },
+      {
+        "Id": "08727bb1-22ea-40ca-81f9-7dc9b0fcabd0",
+        "Name": "威海",
+        "Code": "32",
+        "PY": "W",
+        "DC": {}
+      },
+      {
+        "Id": "3a5c6df3-9ca1-41a8-bc9c-453050bb7897",
+        "Name": "武汉",
+        "Code": "16",
+        "PY": "W",
+        "DC": {}
+      },
+      {
+        "Id": "734d3328-587c-4b16-bddc-9c8682e76ea5",
+        "Name": "温州",
+        "Code": "4",
+        "PY": "W",
+        "DC": {}
+      },
+      {
+        "Id": "146a4ea1-7ba2-4e0b-bf92-a56ddc2d4eb2",
+        "Name": "厦门",
+        "Code": "16",
+        "PY": "X",
+        "DC": {}
+      },
+      {
+        "Id": "95e8ce6d-2c7e-4364-9b66-8903c1afd338",
+        "Name": "徐州",
+        "Code": "4",
+        "PY": "X",
+        "DC": {}
+      },
+      {
+        "Id": "9a2b3612-8529-4ddf-86bd-60b7a46444a7",
+        "Name": "西安",
+        "Code": "16",
+        "PY": "X",
+        "DC": {}
+      },
+      {
+        "Id": "36ccf429-efe3-4192-9530-6fbee4984621",
+        "Name": "盐城",
+        "Code": "4",
+        "PY": "Y",
+        "DC": {}
+      },
+      {
+        "Id": "c9d4fe94-a93a-4382-bf3f-acc16233a71d",
+        "Name": "义乌",
+        "Code": "4",
+        "PY": "Y",
+        "DC": {}
+      },
+      {
+        "Id": "3ed942ac-0504-479b-8808-4d9ca08df39b",
+        "Name": "扬州",
+        "Code": "4",
+        "PY": "Y",
+        "DC": {}
+      },
+      {
+        "Id": "d1c0ada7-06b3-4d53-8f91-ccdc9f61d9ba",
+        "Name": "银川",
+        "Code": "32",
+        "PY": "Y",
+        "DC": {}
+      },
+      {
+        "Id": "6b804583-e3d5-47d5-8bc5-a6a1f46a4cf8",
+        "Name": "余姚",
+        "Code": "4",
+        "PY": "Y",
+        "DC": {}
+      },
+      {
+        "Id": "7d381d70-fc5a-4d1c-8dd0-9400fd5280fd",
+        "Name": "烟台",
+        "Code": "32",
+        "PY": "Y",
+        "DC": {}
+      },
+      {
+        "Id": "49c234d6-d1c7-4b9d-be06-e2ebd08e4618",
+        "Name": "肇庆",
+        "Code": "512",
+        "PY": "Z",
+        "DC": {}
+      },
+      {
+        "Id": "0718b3bf-b99b-4aa4-97bd-4a4da0b92464",
+        "Name": "珠海",
+        "Code": "512",
+        "PY": "Z",
+        "DC": {}
+      },
+      {
+        "Id": "2aac03c9-daf1-4aa8-9505-0bc169742e8a",
+        "Name": "郑州",
+        "Code": "16",
+        "PY": "Z",
+        "DC": {}
+      },
+      {
+        "Id": "b07704cf-41a9-4997-8ac4-7e739d7e978a",
+        "Name": "枣庄",
+        "Code": "32",
+        "PY": "Z",
+        "DC": {}
+      },
+      {
+        "Id": "9e21dcb6-47fa-42f8-89c3-9216ba489f1e",
+        "Name": "淄博",
+        "Code": "32",
+        "PY": "Z",
+        "DC": {}
+      },
+      {
+        "Id": "04d2148e-5d5a-4372-a8a1-ad6fd9756b2b",
+        "Name": "舟山",
+        "Code": "4",
+        "PY": "Z",
+        "DC": {}
+      },
+      {
+        "Id": "29bd9fa7-274c-4257-85e2-a22e2cd1d2ce",
+        "Name": "中山",
+        "Code": "512",
+        "PY": "Z",
+        "DC": {}
+      },
+      {
+        "Id": "26b6f9a2-850b-4cab-be30-d62e6221dab9",
+        "Name": "镇江",
+        "Code": "4",
+        "PY": "Z",
+        "DC": {}
+      }
+    ]
+  }
+}

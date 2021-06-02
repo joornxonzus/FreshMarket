@@ -1,0 +1,47 @@
+apply plugin: 'com.android.application'
+
+repositories {
+	mavenCentral()
+}
+
+android {
+	compileSdkVersion 23
+	buildToolsVersion "23.0.3"
+
+	defaultConfig {
+		applicationId "com.breezelin.freshmarket"
+		minSdkVersion 15
+		targetSdkVersion 23
+		versionCode 1
+		versionName "1.0"
+	}
+	buildTypes {
+		release {
+			minifyEnabled false
+			proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+		}
+	}
+}
+
+dependencies {
+	compile fileTree(include: ['*.jar'], dir: 'libs')
+	testCompile 'junit:junit:4.12'
+	// 官方库依赖
+	compile 'com.android.support:support-v4:23.3.0'
+	compile 'com.android.support:appcompat-v7:23.3.0'
+	compile 'com.android.support:recyclerview-v7:23.3.0'
+	// 第三方库依赖
+	// 图片加载
+	compile 'com.squareup.picasso:picasso:2.5.2'
+	// 圆角图片控件
+	compile 'com.makeramen:roundedimageview:2.2.1'
+	// 圆形图片控件
+	compile 'de.hdodenhof:circleimageview:2.0.0'
+	// 内部库依赖
+	// 基础库
+	compile project(':fmlib')
+	// 推送库
+	compile project(':pushlib')
+	// 分享库
+	compile project(':sharelib')
+}

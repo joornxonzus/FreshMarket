@@ -1,0 +1,84 @@
+自动登录请求，返回一个未知作用的token
+
+POST http://mapi.yiguo.com/MobileApi.aspx?token=CA0C4043E9594934BB51BCE0AD9D36EB&v=3.8&os=android
+&sign=34e1c300642a0d9fdb882b35b13b097b HTTP/1.1
+
+请求
+
+Accept: text/xml;text/html;*/*
+Content-Type: text/xml;charset=utf-8
+Content-Length: 565
+User-Agent: Dalvik/1.6.0 (Linux; U; Android 4.4.4; HM NOTE 1LTE MIUI/6.4.21)
+Host: mapi.yiguo.com
+Connection: Keep-Alive
+Accept-Encoding: gzip
+
+{
+    "Head": {
+        "DeviceId": "d66196be6b7e42ac",
+        "CityId": "0540d74e-0ffb-4a3a-ab79-ec590dd49947",
+        "APICode": "yiguo.mapi.v3.user.autologin",
+        "UseGZip": "0",
+        "PageSize": "20",
+        "PageNo": "1",
+        "CityCode": "512",
+        "UserName": "18720918597",
+        "MobileOS": "1",
+        "Token": "",
+        "UserId": "eb49a4e0-0b35-474c-b4c4-0bc683926be7",
+        "PageCount": "0",
+        "NetworkType": "wifi",
+        "IMEI": "864981021321969",
+        "RspCode": "1",
+        "RspMsg": "",
+        "MobileOSVer": "HM NOTE 1LTE,4.4.4,19",
+        "PostTime": "2016-04-22 16:35:05",
+        "RspFormat": "1",
+        "Version": "3.8"
+    },
+    "Body": {
+        "UserName": "vn5gXKC/qSnP4z9bTnTWnQ==",
+        "Password": "E4+bYSFUcYt4dKgfbpHzMg=="
+    }
+}
+
+回应
+
+HTTP/1.1 200 OK
+Cache-Control: private
+Content-Length: 762
+Content-Type: text/html
+Vary: Accept-Encoding
+Server: Microsoft-IIS/7.5
+Set-Cookie: ASP.NET_SessionId=w4isu0a2ua2ho3avlwossrb1; path=/; HttpOnly
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+X-Powered-By: ARR/2.5
+X-Powered-By: ASP.NET
+Date: Fri, 22 Apr 2016 08:35:06 GMT
+
+{
+  "Head": {
+    "Version": "3.8",
+    "PostTime": "2016-04-22 16:35:07",
+    "APICode": "yiguo.mapi.v3.user.autologin",
+    "PageNo": "0",
+    "PageSize": "0",
+    "PageCount": "0",
+    "UseGZip": "0",
+    "RspCode": "1",
+    "RspMsg": "OK",
+    "RspFormat": "1",
+    "IMEI": "",
+    "DeviceId": "",
+    "MobileOS": "0",
+    "MobileOSVer": "",
+    "NetworkType": "",
+    "UserId": "eb49a4e0-0b35-474c-b4c4-0bc683926be7",
+    "UserName": "18720918597",
+    "CityCode": "512",
+    "CityId": "0540d74e-0ffb-4a3a-ab79-ec590dd49947",
+    "Token": "88QeT6mZ/eZSGpq1DebKf3dxJTcd6FExxcWOXQxlWcuc9uyl9T+22amlmr0yK2molytJLwy+LV73tPfsNT+JowoNVU8pAm5ceFYhIv7LWzf69feWIgA1MMTQKTVMIvAcvtG7X/yUFJmiNlhGIA/3qgoqU7QJzqwNecPkJf/TYVg="
+  },
+  "Body": {}
+}

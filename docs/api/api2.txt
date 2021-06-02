@@ -1,0 +1,89 @@
+POST http://mapi.yiguo.com/MobileApi.aspx?token=CA0C4043E9594934BB51BCE0AD9D36EB&v=3.8&os=android
+&sign=9d9460acbd5cd60158343f206060ba5e HTTP/1.1
+
+请求
+
+Accept: text/xml;text/html;*/*
+Content-Type: text/xml;charset=utf-8
+Content-Length: 444
+User-Agent: Dalvik/2.1.0 (Linux; U; Android 5.1.1; E6883 Build/32.0.A.6.209)
+Host: mapi.yiguo.com
+Connection: Keep-Alive
+Accept-Encoding: gzip
+
+{
+    "Head": {
+        "Version": "3.8",
+        "PostTime": "2016-04-17 17:31:59",
+        "APICode": "yiguo.mapi.v3.app.home.getstartscreenad",
+        "PageNo": "1",
+        "PageSize": "20",
+        "PageCount": "0",
+        "UseGZip": "0",
+        "RspMsg": "",
+        "RspCode": "1",
+        "RspFormat": "1",
+        "DeviceId": "797871e022dabd51",
+        "IMEI": "352430071233061",
+        "MobileOS": "1",
+        "MobileOSVer": "E6883,5.1.1,22",
+        "NetworkType": "wifi",
+        "UserName": "",
+        "UserId": "",
+        "CityCode": "1",
+        "CityId": "312d0556-0671-4f2e-8bac-7b8873b5a03a",
+        "Token": ""
+    },
+    "Body": {}
+}
+
+回应
+
+HTTP/1.1 200 OK
+Cache-Control: private
+Content-Length: 755
+Content-Type: text/html
+Vary: Accept-Encoding
+Server: Microsoft-IIS/7.5
+Set-Cookie: ASP.NET_SessionId=a55lf0cduox1g3qy4qbddfe0; path=/; HttpOnly
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+X-Powered-By: ARR/2.5
+X-Powered-By: ASP.NET
+Date: Sun, 17 Apr 2016 09:32:16 GMT
+
+{
+  "Head": {
+    "Version": "3.8",
+    "PostTime": "2016-04-17 17:32:17",
+    "APICode": "yiguo.mapi.v3.app.home.getstartscreenad",
+    "PageNo": "0",
+    "PageSize": "0",
+    "PageCount": "0",
+    "UseGZip": "0",
+    "RspCode": "1",
+    "RspMsg": "OK",
+    "RspFormat": "1",
+    "IMEI": "",
+    "DeviceId": "",
+    "MobileOS": "0",
+    "MobileOSVer": "",
+    "NetworkType": "",
+    "UserId": "",
+    "UserName": "",
+    "CityCode": "1",
+    "CityId": "312d0556-0671-4f2e-8bac-7b8873b5a03a",
+    "Token": ""
+  },
+  "Body": {
+    "AdStartScreen": {
+      "BannerId": "",
+      "BannerName": "",
+      "LinkChannel": "0",
+      "LinkType": "0",
+      "LinkCode": "",
+      "LinkUrl": "",
+      "PictureUrl": ""
+    }
+  }
+}

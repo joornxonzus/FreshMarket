@@ -1,0 +1,9 @@
+1. 产品详情页
+"LinkUrl": "http://www.yiguo.com/product/1003567.html"
+数字为产品的id
+
+2. app 内部页面跳转协议
+优惠券列表页  "LinkUrl": "ygap://app/couponlist.html?"
+订单列表页    "LinkUrl": "ygap://app/orderlist.html",
+
+3.

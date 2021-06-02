@@ -1,0 +1,614 @@
+主页内容获取
+需要token
+
+POST http://mapi.yiguo.com/MobileApi.aspx?token=CA0C4043E9594934BB51BCE0AD9D36EB&v=3.8&os=android
+&sign=64bf8dabc51aea9e6586332029da13a6 HTTP/1.1
+
+请求
+
+Accept: text/xml;text/html;*/*
+Content-Type: text/xml;charset=utf-8
+Content-Length: 663
+User-Agent: Dalvik/1.6.0 (Linux; U; Android 4.4.4; HM NOTE 1LTE MIUI/6.4.21)
+Host: mapi.yiguo.com
+Connection: Keep-Alive
+Accept-Encoding: gzip
+
+{
+    "Head": {
+        "DeviceId": "d66196be6b7e42ac",
+        "CityId": "0540d74e-0ffb-4a3a-ab79-ec590dd49947",
+        "APICode": "yiguo.mapi.v3.app.home.get",
+        "UseGZip": "0",
+        "PageSize": "20",
+        "PageNo": "1",
+        "CityCode": "512",
+        "UserName": "18720918597",
+        "MobileOS": "1",
+        "Token": "1dDGMX0vf3E8mKWYhvL2dBe/7sYor9eSq/r622fJU5rh06sSok63ckhfMIuTICx4lzQkjB5xg9qWie3josFyVkRAtwLQip9w4r0k57dBqKGEnT0zmXZ/oKvIW58U6HC2wIljoSzrPZyIxlgGjAvbSJ8fvdZ/Qto1Z5FtJczHLr8=",
+        "UserId": "eb49a4e0-0b35-474c-b4c4-0bc683926be7",
+        "PageCount": "0",
+        "NetworkType": "wifi",
+        "IMEI": "864981021321969",
+        "RspCode": "1",
+        "RspMsg": "",
+        "MobileOSVer": "HM NOTE 1LTE,4.4.4,19",
+        "PostTime": "2016-04-22 16:35:05",
+        "RspFormat": "1",
+        "Version": "3.8"
+    },
+    "Body": {}
+}
+
+回应
+
+HTTP/1.1 200 OK
+Cache-Control: private
+Content-Length: 22021
+Content-Type: text/html
+Vary: Accept-Encoding
+Server: Microsoft-IIS/7.5
+Set-Cookie: ASP.NET_SessionId=4pxbtucqd53kacr14n2c3rvg; path=/; HttpOnly
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+X-Powered-By: ARR/2.5
+X-Powered-By: ASP.NET
+Date: Fri, 22 Apr 2016 08:35:07 GMT
+
+{
+  "Head": {
+    "Version": "3.8",
+    "PostTime": "2016-04-22 16:35:07",
+    "APICode": "yiguo.mapi.v3.app.home.get",
+    "PageNo": "0",
+    "PageSize": "0",
+    "PageCount": "0",
+    "UseGZip": "0",
+    "RspCode": "1",
+    "RspMsg": "OK",
+    "RspFormat": "1",
+    "IMEI": "",
+    "DeviceId": "",
+    "MobileOS": "0",
+    "MobileOSVer": "",
+    "NetworkType": "",
+    "UserId": "eb49a4e0-0b35-474c-b4c4-0bc683926be7",
+    "UserName": "18720918597",
+    "CityCode": "512",
+    "CityId": "0540d74e-0ffb-4a3a-ab79-ec590dd49947",
+    "Token": ""
+  },
+  "Body": {
+    "Banners": {
+      "Title": "Banners",
+      "CountdownSeconds": "",
+      "Items": [
+        {
+          "BannerId": "84c526a1-ce53-416d-832f-d8b4dfda3546",
+          "BannerName": "澳洲牛肉专场",
+          "LinkChannel": "3",
+          "LinkType": "3",
+          "LinkCode": "AussieBeef20160420152340578",
+          "LinkUrl": "http://img02.yiguo.com/e/web/130101/events/apphtml5/2016/201604/AussieBeef20160420152340578.html",
+          "PictureUrl": "http://img09.yiguoimg.com/e/albums/2016/160420/153403881680150676_800x400.jpg",
+          "Badge": ""
+        },
+        {
+          "BannerId": "87248cfc-d80b-4b98-b997-f2b2b13d02a5",
+          "BannerName": "阿拉斯加海鲜盛宴",
+          "LinkChannel": "3",
+          "LinkType": "3",
+          "LinkCode": "ALSJHXSYGZ20160413162600714",
+          "LinkUrl": "http://img02.yiguo.com/e/web/130101/events/apphtml5/2016/201604/ALSJHXSYGZ20160413162600714.html",
+          "PictureUrl": "http://img10.yiguoimg.com/e/albums/2016/160418/153403881628704914_800x400.jpg",
+          "Badge": ""
+        },
+        {
+          "BannerId": "7afea0ca-9d4d-4e4b-b0ec-81032488c689",
+          "BannerName": "新人注册有礼（广州）",
+          "LinkChannel": "3",
+          "LinkType": "3",
+          "LinkCode": "xrzcylgz20160408183907066",
+          "LinkUrl": "http://img02.yiguo.com/e/web/130101/events/apphtml5/2016/201604/xrzcylgz20160408183907066.html",
+          "PictureUrl": "http://img09.yiguoimg.com/e/albums/2016/160325/153403881163497593_800x400.jpg",
+          "Badge": ""
+        }
+      ]
+    },
+    "ShortcutIcons": {
+      "Title": "ShortcutIcons",
+      "CountdownSeconds": "",
+      "Items": [
+        {
+          "BannerId": "46efbabe-2534-4c6e-8655-602d79f6ea75",
+          "BannerName": "新品尝鲜",
+          "LinkChannel": "3",
+          "LinkType": "3",
+          "LinkCode": "xpzqgz20160420174347696",
+          "LinkUrl": "http://img02.yiguo.com/e/web/130101/events/apphtml5/2016/201604/xpzqgz20160420174347696.html",
+          "PictureUrl": "http://img10.yiguoimg.com/e/albums/2016/160217/153685355498741841_147.png",
+          "Badge": ""
+        },
+        {
+          "BannerId": "fb492f08-ad3b-47fd-a547-42f2ffbf1d66",
+          "BannerName": "订单查询",
+          "LinkChannel": "3",
+          "LinkType": "5",
+          "LinkCode": "orderlist",
+          "LinkUrl": "ygap://app/orderlist.html",
+          "PictureUrl": "http://img14.yiguoimg.com/e/albums/2016/160217/153685355498872913_147.png",
+          "Badge": ""
+        },
+        {
+          "BannerId": "6bee27c1-e6c8-4574-a217-3396bc76031b",
+          "BannerName": "充值有礼",
+          "LinkChannel": "3",
+          "LinkType": "3",
+          "LinkCode": "RechargeActivity",
+          "LinkUrl": "http://recharge2.m.yiguo.com/Recharge/RechargeActivity",
+          "PictureUrl": "http://img09.yiguoimg.com/e/albums/2016/160217/153685355498938449_147.png",
+          "Badge": ""
+        },
+        {
+          "BannerId": "acb701bd-c331-4200-b9c0-3623df1bd131",
+          "BannerName": "优惠券",
+          "LinkChannel": "3",
+          "LinkType": "5",
+          "LinkCode": "couponlist",
+          "LinkUrl": "ygap://app/couponlist.html?",
+          "PictureUrl": "http://img09.yiguoimg.com/e/albums/2016/160217/153685355499036753_147.png",
+          "Badge": "6"
+        }
+      ]
+    },
+    "Group1": {
+      "Title": "超值抢鲜",
+      "CountdownSeconds": "0",
+      "Items": [
+        {
+          "BannerId": "ba24367f-220b-49dd-80bd-993b226f1742",
+          "BannerName": "马来西亚山竹1kg（GD）",
+          "LinkChannel": "3",
+          "LinkType": "1",
+          "LinkCode": "1002867",
+          "LinkUrl": "http://www.yiguo.com/product/1002867.html",
+          "PictureUrl": "http://img09.yiguoimg.com/e/albums/2016/160407/153403881404014727_260x320.jpg",
+          "Badge": ""
+        },
+        {
+          "BannerId": "34e7cda0-61f3-4598-b960-e76167ef2a97",
+          "BannerName": "山东栖霞优质红富士1kg果径约80-85mm（GD）",
+          "LinkChannel": "3",
+          "LinkType": "1",
+          "LinkCode": "1000614",
+          "LinkUrl": "http://www.yiguo.com/product/1000614.html",
+          "PictureUrl": "http://img10.yiguoimg.com/e/albums/2016/160421/153403881704988821_260x320.jpg",
+          "Badge": ""
+        },
+        {
+          "BannerId": "66d31210-1f6d-4c80-b1dd-2e21fa9085c1",
+          "BannerName": "丹麦皇冠天然谷饲猪肋排400g",
+          "LinkChannel": "3",
+          "LinkType": "1",
+          "LinkCode": "103335",
+          "LinkUrl": "http://www.yiguo.com/product/103335.html",
+          "PictureUrl": "http://img09.yiguoimg.com/e/albums/2016/160420/153403881669337236_260x320.jpg",
+          "Badge": ""
+        }
+      ]
+    },
+    "Group2": {
+      "Title": "腰线",
+      "CountdownSeconds": "",
+      "Items": [
+        {
+          "BannerId": "b2e22722-602b-49d1-bdbf-5ab38cd5a5bf",
+          "BannerName": "金果预售",
+          "LinkChannel": "3",
+          "LinkType": "3",
+          "LinkCode": "GZJPJGYS20160420151733567",
+          "LinkUrl": "http://img02.yiguo.com/e/web/130101/events/apphtml5/2016/201604/GZJPJGYS20160420151733567.html",
+          "PictureUrl": "http://img13.yiguoimg.com/e/albums/2016/160420/153403881679888532_778x303.jpg",
+          "Badge": ""
+        },
+        {
+          "BannerId": "bda8de35-75d4-4c57-aa79-f40b1e5a0389",
+          "BannerName": "美威海鲜盛宴",
+          "LinkChannel": "3",
+          "LinkType": "3",
+          "LinkCode": "MWHXSY20160419111518970",
+          "LinkUrl": "http://img02.yiguo.com/e/web/130101/events/apphtml5/2016/201604/MWHXSY20160419111518970.html",
+          "PictureUrl": "http://img13.yiguoimg.com/e/albums/2016/160419/153403881645449363_778x303.jpg",
+          "Badge": ""
+        },
+        {
+          "BannerId": "acc155df-78f3-4fd6-b6c8-dd80a4db0ac2",
+          "BannerName": "澳洲腱子心1kg",
+          "LinkChannel": "3",
+          "LinkType": "1",
+          "LinkCode": "152250",
+          "LinkUrl": "http://www.yiguo.com/product/152250.html",
+          "PictureUrl": "http://img09.yiguoimg.com/e/albums/2016/160419/153403881652756627_778x303.jpg",
+          "Badge": ""
+        }
+      ]
+    },
+    "Group3": {
+      "Title": "人气惠选",
+      "CountdownSeconds": "",
+      "Items": [
+        {
+          "BannerId": "93470506-cc03-497c-9bf4-610bfb9bd77f",
+          "BannerName": "春日尝新",
+          "LinkChannel": "3",
+          "LinkType": "1",
+          "LinkCode": "1001828",
+          "LinkUrl": "http://www.yiguo.com/product/1001828.html",
+          "PictureUrl": "http://img10.yiguoimg.com/e/albums/2016/160420/153403881678119060_315x500.jpg",
+          "Badge": ""
+        },
+        {
+          "BannerId": "f9ba9614-9396-4bc3-91db-a39e5c652a31",
+          "BannerName": "买赠专区",
+          "LinkChannel": "3",
+          "LinkType": "3",
+          "LinkCode": "MZZQGZ20160405144147245",
+          "LinkUrl": "http://img02.yiguo.com/e/web/130101/events/apphtml5/2016/201604/MZZQGZ20160405144147245.html",
+          "PictureUrl": "http://img13.yiguoimg.com/e/albums/2016/160420/153403881678217364_463x250.jpg",
+          "Badge": ""
+        },
+        {
+          "BannerId": "5fd4e9fc-82f1-4907-8e6f-d26426b88b55",
+          "BannerName": "热带鲜果专场",
+          "LinkChannel": "3",
+          "LinkType": "2",
+          "LinkCode": "0106_tropical",
+          "LinkUrl": "http://www.yiguo.com/products/0106_tropical.html",
+          "PictureUrl": "http://img12.yiguoimg.com/e/albums/2016/160420/153403881678250132_463x250.jpg",
+          "Badge": ""
+        }
+      ]
+    },
+    "Group4": {
+      "Title": "品质优选",
+      "CountdownSeconds": "",
+      "Items": [
+        {
+          "BannerId": "a590714c-426a-4250-900c-d18a0c4c1700",
+          "BannerName": "三都港海鲜惠",
+          "LinkChannel": "3",
+          "LinkType": "4",
+          "LinkCode": "三都港",
+          "LinkUrl": "http://search.yiguo.com/?keyword=%E4%B8%89%E9%83%BD%E6%B8%AF",
+          "PictureUrl": "http://img12.yiguoimg.com/e/albums/2016/160420/153403881679102100_315x500.jpg",
+          "Badge": ""
+        },
+        {
+          "BannerId": "5c8c214c-3b68-40c1-a082-4247ea25bef0",
+          "BannerName": "禽蛋",
+          "LinkChannel": "3",
+          "LinkType": "4",
+          "LinkCode": "禽蛋专场",
+          "LinkUrl": "http://search.yiguo.com/?keyword=%E7%A6%BD%E8%9B%8B%E4%B8%93%E5%9C%BA",
+          "PictureUrl": "http://img13.yiguoimg.com/e/albums/2016/160420/153403881678774420_463x250.jpg",
+          "Badge": ""
+        },
+        {
+          "BannerId": "ea4d7323-5ab8-464a-99c6-4cd6c68fc626",
+          "BannerName": "澳洲和牛专场",
+          "LinkChannel": "3",
+          "LinkType": "3",
+          "LinkCode": "AZHNGZAPP20160317182750168",
+          "LinkUrl": "http://img02.yiguo.com/e/web/130101/events/apphtml5/2016/201603/AZHNGZAPP20160317182750168.html",
+          "PictureUrl": "http://img14.yiguoimg.com/e/albums/2016/160420/153403881678807188_463x250.jpg",
+          "Badge": ""
+        }
+      ]
+    },
+    "Group5": {
+      "Title": "品牌直达",
+      "CountdownSeconds": "",
+      "Items": [
+        {
+          "BannerId": "b55d3720-a223-46c7-b25a-03afb7f7be86",
+          "BannerName": "荷美尔专场",
+          "LinkChannel": "3",
+          "LinkType": "4",
+          "LinkCode": "荷美尔",
+          "LinkUrl": "http://search.yiguo.com/?keyword=%E8%8D%B7%E7%BE%8E%E5%B0%94",
+          "PictureUrl": "http://img11.yiguoimg.com/e/albums/2016/160415/153403881555828879_260x430.jpg",
+          "Badge": ""
+        },
+        {
+          "BannerId": "885b044d-99b6-4764-a6c1-977f3eacc5ac",
+          "BannerName": "速食",
+          "LinkChannel": "3",
+          "LinkType": "3",
+          "LinkCode": "sushigz20160420164322250",
+          "LinkUrl": "http://img02.yiguo.com/e/web/130101/events/apphtml5/2016/201604/sushigz20160420164322250.html",
+          "PictureUrl": "http://img12.yiguoimg.com/e/albums/2016/160422/153403881723175062_260x430.jpg",
+          "Badge": ""
+        },
+        {
+          "BannerId": "0531f284-7dbf-4c84-9309-0a29f69d59c1",
+          "BannerName": "浦发周四半价厨房饕餮",
+          "LinkChannel": "3",
+          "LinkType": "3",
+          "LinkCode": "pfhd20160324161410153",
+          "LinkUrl": "http://img02.yiguo.com/e/web/130101/events/apphtml5/2016/201603/pfhd20160324161410153.html",
+          "PictureUrl": "http://img11.yiguoimg.com/e/albums/2016/160418/153403881600426130_260x430.jpg",
+          "Badge": ""
+        }
+      ]
+    },
+    "Group6": {
+      "Title": "易果精选",
+      "CountdownSeconds": "",
+      "Items": [
+        {
+          "BannerId": "6838e522-010d-4247-acdf-52bc82e25619",
+          "BannerName": "海南三亚麒麟瓜1个约2.5kg/个（GD）",
+          "LinkChannel": "3",
+          "LinkType": "1",
+          "LinkCode": "1002134",
+          "LinkUrl": "http://www.yiguo.com/product/1002134.html",
+          "PictureUrl": "http://img10.yiguoimg.com/e/albums/2016/160421/153403881709281429_778x303.jpg",
+          "Badge": ""
+        },
+        {
+          "BannerId": "5dbb4c69-e3e7-4fc2-b8d0-24d275a6bd18",
+          "BannerName": "泰国白蜜柚1个约900g/个（GD）",
+          "LinkChannel": "3",
+          "LinkType": "1",
+          "LinkCode": "1002685",
+          "LinkUrl": "http://www.yiguo.com/product/1002685.html",
+          "PictureUrl": "http://img13.yiguoimg.com/e/albums/2016/160421/153403881708560533_778x303.jpg",
+          "Badge": ""
+        },
+        {
+          "BannerId": "6b9fc61c-4ce3-49ab-be10-47d50c314dd1",
+          "BannerName": "泰国椰青4个（GD）",
+          "LinkChannel": "3",
+          "LinkType": "1",
+          "LinkCode": "12881",
+          "LinkUrl": "http://www.yiguo.com/product/12881.html",
+          "PictureUrl": "http://img14.yiguoimg.com/e/albums/2016/160422/153403881742770326_778x303.jpg",
+          "Badge": ""
+        },
+        {
+          "BannerId": "90dd274f-e700-498f-a975-d517d73339e4",
+          "BannerName": "河北春雪水蜜桃500g 200g/个起（GD）",
+          "LinkChannel": "3",
+          "LinkType": "1",
+          "LinkCode": "1003176",
+          "LinkUrl": "http://www.yiguo.com/product/1003176.html",
+          "PictureUrl": "http://img13.yiguoimg.com/e/albums/2016/160421/153403881708626069_778x303.jpg",
+          "Badge": ""
+        },
+        {
+          "BannerId": "e6ae3364-4bb7-478d-ac2f-a6b09caf5848",
+          "BannerName": "新奇士美国晚季脐橙4个约180g/个(GD)",
+          "LinkChannel": "3",
+          "LinkType": "1",
+          "LinkCode": "1003567",
+          "LinkUrl": "http://www.yiguo.com/product/1003567.html",
+          "PictureUrl": "http://img14.yiguoimg.com/e/albums/2016/160421/153403881708691605_778x303.jpg",
+          "Badge": ""
+        },
+        {
+          "BannerId": "ab5fbbac-fe09-492d-b489-3acbe58e17b9",
+          "BannerName": "黄河蜜瓜1个约1.3kg/个（GD）",
+          "LinkChannel": "3",
+          "LinkType": "1",
+          "LinkCode": "1002928",
+          "LinkUrl": "http://www.yiguo.com/product/1002928.html",
+          "PictureUrl": "http://img14.yiguoimg.com/e/albums/2016/160421/153403881708757141_778x303.jpg",
+          "Badge": ""
+        },
+        {
+          "BannerId": "c4924773-c3cd-4d75-9029-ae3ba6f49386",
+          "BannerName": "智利黑布林1kg约95g/个（GD）",
+          "LinkChannel": "3",
+          "LinkType": "1",
+          "LinkCode": "1002917",
+          "LinkUrl": "http://www.yiguo.com/product/1002917.html",
+          "PictureUrl": "http://img10.yiguoimg.com/e/albums/2016/160421/153403881708789909_778x303.jpg",
+          "Badge": ""
+        },
+        {
+          "BannerId": "b065e39b-7fcf-46f1-b7e1-90f5554665e9",
+          "BannerName": "美国红蛇果4个（GD）",
+          "LinkChannel": "3",
+          "LinkType": "1",
+          "LinkCode": "1000020",
+          "LinkUrl": "http://www.yiguo.com/product/1000020.html",
+          "PictureUrl": "http://img11.yiguoimg.com/e/albums/2016/160421/153403881708855445_778x303.jpg",
+          "Badge": ""
+        },
+        {
+          "BannerId": "fb94c862-b24a-44d9-9a41-e4cdc8d7d514",
+          "BannerName": "泰国金枕头冷冻榴莲果肉300g*3份",
+          "LinkChannel": "3",
+          "LinkType": "1",
+          "LinkCode": "42593",
+          "LinkUrl": "http://www.yiguo.com/product/42593.html",
+          "PictureUrl": "http://img11.yiguoimg.com/e/albums/2016/160421/153403881708527765_778x303.jpg",
+          "Badge": ""
+        },
+        {
+          "BannerId": "953d0000-f86d-458c-92dc-602278415d75",
+          "BannerName": "柳江麦香蛋250g",
+          "LinkChannel": "3",
+          "LinkType": "1",
+          "LinkCode": "1002724",
+          "LinkUrl": "http://www.yiguo.com/product/1002724.html",
+          "PictureUrl": "http://img12.yiguoimg.com/e/albums/2016/160421/153403881709609109_778x303.jpg",
+          "Badge": ""
+        },
+        {
+          "BannerId": "fea05d89-ff4a-444d-8de6-7207b13084a1",
+          "BannerName": "苏北散养童子鸡",
+          "LinkChannel": "3",
+          "LinkType": "1",
+          "LinkCode": "104135",
+          "LinkUrl": "http://www.yiguo.com/product/104135.html",
+          "PictureUrl": "http://img12.yiguoimg.com/e/albums/2016/160421/153403881708888213_778x303.jpg",
+          "Badge": ""
+        },
+        {
+          "BannerId": "aee15d26-fd25-4fcc-8f78-8fb177b91a1c",
+          "BannerName": "三都港海捕野生小黄鱼500g",
+          "LinkChannel": "3",
+          "LinkType": "1",
+          "LinkCode": "1000299",
+          "LinkUrl": "http://www.yiguo.com/product/1000299.html",
+          "PictureUrl": "http://img13.yiguoimg.com/e/albums/2016/160421/153403881708658837_778x303.jpg",
+          "Badge": ""
+        },
+        {
+          "BannerId": "e7888eb7-3d0a-4e74-a1e9-5b0f1655d36a",
+          "BannerName": "原膳嫩鸭（樱桃谷鸭）950g",
+          "LinkChannel": "3",
+          "LinkType": "1",
+          "LinkCode": "104142",
+          "LinkUrl": "http://www.yiguo.com/product/104142.html",
+          "PictureUrl": "http://img13.yiguoimg.com/e/albums/2016/160421/153403881708920981_778x303.jpg",
+          "Badge": ""
+        },
+        {
+          "BannerId": "eecd83fd-2741-458a-bf0f-8d059bbe848e",
+          "BannerName": "澳洲草饲西冷牛排500g",
+          "LinkChannel": "3",
+          "LinkType": "1",
+          "LinkCode": "161240",
+          "LinkUrl": "http://www.yiguo.com/product/161240.html",
+          "PictureUrl": "http://img11.yiguoimg.com/e/albums/2016/160421/153403881713311893_778x303.jpg",
+          "Badge": ""
+        },
+        {
+          "BannerId": "9bd5d6f3-fe75-4e86-8ed9-d91ff1dd337f",
+          "BannerName": "丹麦皇冠天然谷饲猪蹄700g",
+          "LinkChannel": "3",
+          "LinkType": "1",
+          "LinkCode": "103336",
+          "LinkUrl": "http://www.yiguo.com/product/103336.html",
+          "PictureUrl": "http://img13.yiguoimg.com/e/albums/2016/160421/153403881708986517_778x303.jpg",
+          "Badge": ""
+        },
+        {
+          "BannerId": "8b60e1f7-a2dd-4c78-918c-173f6a875340",
+          "BannerName": "澳洲精选肥牛卷500g",
+          "LinkChannel": "3",
+          "LinkType": "1",
+          "LinkCode": "424966",
+          "LinkUrl": "http://www.yiguo.com/product/424966.html",
+          "PictureUrl": "http://img10.yiguoimg.com/e/albums/2016/160421/153403881709019285_778x303.jpg",
+          "Badge": ""
+        },
+        {
+          "BannerId": "7b6db296-f4c1-4a5f-85d5-7e0650b47886",
+          "BannerName": "泰森冰冻翅中500g",
+          "LinkChannel": "3",
+          "LinkType": "1",
+          "LinkCode": "154237",
+          "LinkUrl": "http://www.yiguo.com/product/154237.html",
+          "PictureUrl": "http://img13.yiguoimg.com/e/albums/2016/160421/153403881709052053_778x303.jpg",
+          "Badge": ""
+        },
+        {
+          "BannerId": "db424d90-c102-4fc1-a3fe-82e69e494fae",
+          "BannerName": "阿拉斯加银鳕鱼块390g",
+          "LinkChannel": "3",
+          "LinkType": "1",
+          "LinkCode": "106105",
+          "LinkUrl": "http://www.yiguo.com/product/106105.html",
+          "PictureUrl": "http://img11.yiguoimg.com/e/albums/2016/160421/153403881708724373_778x303.jpg",
+          "Badge": ""
+        },
+        {
+          "BannerId": "0aaeea76-602e-49bc-88d9-9e469da656da",
+          "BannerName": "美威欧式原味三文鱼排（2片装）250g",
+          "LinkChannel": "3",
+          "LinkType": "1",
+          "LinkCode": "196073",
+          "LinkUrl": "http://www.yiguo.com/product/196073.html",
+          "PictureUrl": "http://img10.yiguoimg.com/e/albums/2016/160421/153403881709314197_778x303.jpg",
+          "Badge": ""
+        },
+        {
+          "BannerId": "8583ebb5-c887-4c84-b6b9-ccda6cde5166",
+          "BannerName": "阿根廷红虾2kg（特大号）",
+          "LinkChannel": "3",
+          "LinkType": "1",
+          "LinkCode": "156202",
+          "LinkUrl": "http://www.yiguo.com/product/156202.html",
+          "PictureUrl": "http://img13.yiguoimg.com/e/albums/2016/160422/153403881720946838_778x303.jpg",
+          "Badge": ""
+        }
+      ]
+    },
+    "FootBanners": {
+      "Title": "底部广告位",
+      "CountdownSeconds": "",
+      "Items": [
+        {
+          "BannerId": "b577e47a-d877-435e-82fc-368224517450",
+          "BannerName": "台湾上园金柚2个装",
+          "LinkChannel": "3",
+          "LinkType": "0",
+          "LinkCode": "",
+          "LinkUrl": "",
+          "PictureUrl": "http://img05.yiguoimg.com/e/web/151217/00242/115027/88572cb2-1ef8-44fc-be36-457cf96f99ez.png",
+          "Badge": ""
+        }
+      ]
+    },
+    "FloatingBanners": {
+      "Title": "漂浮广告",
+      "CountdownSeconds": "",
+      "Items": [
+        {
+          "BannerId": "",
+          "BannerName": "",
+          "LinkChannel": "",
+          "LinkType": "",
+          "LinkCode": "",
+          "LinkUrl": "",
+          "PictureUrl": "",
+          "Badge": ""
+        }
+      ]
+    },
+    "HeadBanners": {
+      "Title": "头部刷新广告",
+      "CountdownSeconds": "",
+      "Items": [
+        {
+          "BannerId": "f708e3eb-ddb7-465d-9a78-64eae5e64e94",
+          "BannerName": "台湾上园金柚2个装",
+          "LinkChannel": "3",
+          "LinkType": "0",
+          "LinkCode": "",
+          "LinkUrl": "",
+          "PictureUrl": "http://img06.yiguoimg.com/e/web/151217/00243/115125/88572cb2-1ef8-44fc-be36-457cf96f99lo.png",
+          "Badge": ""
+        }
+      ]
+    },
+    "AdFull": {},
+    "AdFloating": {
+      "BannerId": "",
+      "BannerName": "",
+      "LinkChannel": "3",
+      "LinkType": "3",
+      "LinkCode": "",
+      "LinkUrl": "",
+      "PictureUrl": "",
+      "SmallPictureUrl": ""
+    },
+    "LoginTips": {
+      "ReminderTips": "",
+      "IsReminder": "0"
+    }
+  }
+}

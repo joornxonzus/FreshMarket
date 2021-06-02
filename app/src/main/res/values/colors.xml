@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<color name="colorPrimary">#3F51B5</color>
+	<color name="colorPrimaryDark">#303F9F</color>
+	<color name="colorAccent">#FF4081</color>
+
+	<!-- 主要颜色 -->
+	<color name="black">#333336</color>
+	<color name="white">#fefefe</color>
+
+	<!-- 界面及控件颜色 -->
+	<!-- 全局背景 -->
+	<color name="bg_global">@color/white</color>
+	<!-- 遮罩起始颜色 -->
+	<color name="mask_start">#8333</color>
+	<!-- 遮罩结束颜色 -->
+	<color name="mask_end">#0000</color>
+
+	<!-- 字体颜色 -->
+	<color name="tc_black">@color/black</color>
+	<color name="tc_grey">#777</color>
+	<color name="tc_white">@color/white</color>
+</resources>

@@ -1,0 +1,34 @@
+POST http://mapi.yiguo.com/MobileApi.aspx?token=CA0C4043E9594934BB51BCE0AD9D36EB&v=3.8&os=android
+&sign=8720a1a0eb16f2cf5a0b0b2ac2bd1c91 HTTP/1.1
+一些捕获好的常量
+接口地址  http://mapi.yiguo.com/MobileApi.aspx
+token    CA0C4043E9594934BB51BCE0AD9D36EB
+os       android
+v        3.8
+sign为以raw内容进行特定方法摘要得到的
+
+以下为捕获好的接口。
+
+1. 版本检查
+"APICode": "yiguo.mapi.v3.app.launch"
+
+2. 软件开启页面
+"APICode": "yiguo.mapi.v3.app.home.getstartscreenad"
+
+3. 主页内容
+"APICode": "yiguo.mapi.v3.app.home.get"
+
+4. 可选地址列表
+"APICode": "yiguo.mapi.app.city.list.get"
+
+5. 特定城市信息
+"APICode": "yiguo.mapi.app.city.info.get"
+
+6. 推送设定
+"APICode": "yiguo.mapi.app.setpushmsgdevice"
+
+7. 自动登录
+"APICode": "yiguo.mapi.v3.user.autologin"
+
+8. 主页内容
+"APICode": "yiguo.mapi.v3.app.home.get"
