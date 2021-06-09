@@ -32,3 +32,17 @@ sign为以raw内容进行特定方法摘要得到的
 
 8. 主页内容
 "APICode": "yiguo.mapi.v3.app.home.get"
+
+9. 所有类别
+"APICode": "yiguo.mapi.v3.category.all.get"
+
+10.特定类别
+"APICode": "yiguo.mapi.v3.commodity.list.get"
+
+11.指定关键字
+"APICode": "yiguo.mapi.v3.commodity.list.get"
+
+12.获取商品详情
+"APICode": "yiguo.mapi.v3.commodity.get"
+
+13.获取相关商品

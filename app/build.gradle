@@ -37,6 +37,8 @@ dependencies {
 	compile 'com.makeramen:roundedimageview:2.2.1'
 	// 圆形图片控件
 	compile 'de.hdodenhof:circleimageview:2.0.0'
+	// 友盟统计
+	compile 'com.umeng.analytics:analytics:latest.integration'
 	// 内部库依赖
 	// 基础库
 	compile project(':fmlib')

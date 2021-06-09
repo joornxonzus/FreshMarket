@@ -1,0 +1,260 @@
+POST http://mapi.yiguo.com/MobileApi.aspx?token=CA0C4043E9594934BB51BCE0AD9D36EB&v=3.8&os=android
+&sign=bec7bb8952b4238941563ea89f10e7f2 HTTP/1.1
+Accept: text/xml;text/html;*/*
+Content-Type: text/xml;charset=utf-8
+Content-Length: 559
+User-Agent: Dalvik/1.6.0 (Linux; U; Android 4.4.4; HM NOTE 1LTE MIUI/6.4.28)
+Host: mapi.yiguo.com
+Connection: Keep-Alive
+Accept-Encoding: gzip
+
+{
+    "Head": {
+        "DeviceId": "d66196be6b7e42ac",
+        "CityId": "0540d74e-0ffb-4a3a-ab79-ec590dd49947",
+        "APICode": "yiguo.mapi.v3.commodity.recommendlist.get",
+        "UseGZip": "0",
+        "PageSize": "20",
+        "PageNo": "1",
+        "CityCode": "512",
+        "UserName": "",
+        "MobileOS": "1",
+        "Token": "",
+        "UserId": "",
+        "PageCount": "0",
+        "NetworkType": "wifi",
+        "IMEI": "864981021321969",
+        "RspCode": "1",
+        "RspMsg": "",
+        "MobileOSVer": "HM NOTE 1LTE,4.4.4,19",
+        "PostTime": "2016-05-12 06:19:53",
+        "RspFormat": "1",
+        "Version": "3.8"
+    },
+    "Body": {
+        "CommodityId": "69664ad1-6563-462b-b688-1058abdcce55",
+        "CategoryId": "1e17a99d-ca4b-49be-908b-93c8faa20baf"
+    }
+}
+
+HTTP/1.1 200 OK
+Cache-Control: private
+Content-Length: 7197
+Content-Type: text/html
+Vary: Accept-Encoding
+Server: Microsoft-IIS/7.5
+Set-Cookie: ASP.NET_SessionId=kcnmq2pkehxcbmmgvseut0v2; path=/; HttpOnly
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+X-Powered-By: ARR/2.5
+X-Powered-By: ASP.NET
+Date: Wed, 11 May 2016 22:19:58 GMT
+
+{
+  "Head": {
+    "Version": "3.8",
+    "PostTime": "2016-05-12 06:19:58",
+    "APICode": "yiguo.mapi.v3.commodity.recommendlist.get",
+    "PageNo": "1",
+    "PageSize": "10",
+    "PageCount": "5",
+    "UseGZip": "0",
+    "RspCode": "1",
+    "RspMsg": "OK",
+    "RspFormat": "1",
+    "IMEI": "",
+    "DeviceId": "",
+    "MobileOS": "0",
+    "MobileOSVer": "",
+    "NetworkType": "",
+    "UserId": "",
+    "UserName": "",
+    "CityCode": "512",
+    "CityId": "0540d74e-0ffb-4a3a-ab79-ec590dd49947",
+    "Token": ""
+  },
+  "Body": {
+    "Commoditys": [
+      {
+        "CommodityId": "a578a14b-539f-4d62-bc94-00eac6845701",
+        "CommodityCode": "1000614",
+        "CommodityName": "山东栖霞优质红富士1kg果径约80-85mm（GD）",
+        "State": "1",
+        "StateText": "上架",
+        "OriginalPrice": "23.00",
+        "CommodityPrice": "14.80",
+        "Spec": "1kg/组",
+        "BrandName": "",
+        "SmallPic": "http://img10.yiguoimg.com/e/items/2015/151211/9288691037052811_300.jpg",
+        "ShowOriginalPrice": "1",
+        "MaxLimitCount": "20",
+        "CategoryId": "1e17a99d-ca4b-49be-908b-93c8faa20baf",
+        "CategoryCode": "",
+        "SubTitle": "",
+        "Promotions": [
+          {
+            "SaleFlag": "4",
+            "SaleText": "手机专享商品，价格比网站更给力",
+            "LinkType": "0",
+            "LinkCode": "",
+            "LinkUrl": ""
+          }
+        ]
+      },
+      {
+        "CommodityId": "fb2b85ee-a250-4f88-aaee-029b596d5ec1",
+        "CommodityCode": "1000861",
+        "CommodityName": "甘肃精品富士苹果1kg果径80-85mm（GD）",
+        "State": "1",
+        "StateText": "上架",
+        "OriginalPrice": "29.90",
+        "CommodityPrice": "29.90",
+        "Spec": "1kg/箱",
+        "BrandName": "",
+        "SmallPic": "http://img14.yiguoimg.com/e/items/2015/151221/9288691246833557_300.jpg",
+        "ShowOriginalPrice": "0",
+        "MaxLimitCount": "20",
+        "CategoryId": "1e17a99d-ca4b-49be-908b-93c8faa20baf",
+        "CategoryCode": "",
+        "SubTitle": ""
+      },
+      {
+        "CommodityId": "26a8cb10-9f3a-4466-a514-032b6040ff3f",
+        "CommodityCode": "1004206",
+        "CommodityName": "浙江东方蜜甜瓜2个800g以上/个（GD）",
+        "State": "1",
+        "StateText": "上架",
+        "OriginalPrice": "35.00",
+        "CommodityPrice": "35.00",
+        "Spec": "2个/箱",
+        "BrandName": "",
+        "SmallPic": "http://img13.yiguoimg.com/e/items/2016/160511/9288694086213803_300.jpg",
+        "ShowOriginalPrice": "0",
+        "MaxLimitCount": "20",
+        "CategoryId": "1e17a99d-ca4b-49be-908b-93c8faa20baf",
+        "CategoryCode": "",
+        "SubTitle": ""
+      },
+      {
+        "CommodityId": "559cb257-6772-4e54-93e2-066ac9fb7a60",
+        "CommodityCode": "1003323",
+        "CommodityName": "海南龙眼2kg（GD）",
+        "State": "1",
+        "StateText": "上架",
+        "OriginalPrice": "82.00",
+        "CommodityPrice": "82.00",
+        "Spec": "2kg/箱",
+        "BrandName": "",
+        "SmallPic": "http://img13.yiguoimg.com/e/items/2016/160412/9288693412438156_300.jpg",
+        "ShowOriginalPrice": "0",
+        "MaxLimitCount": "20",
+        "CategoryId": "1e17a99d-ca4b-49be-908b-93c8faa20baf",
+        "CategoryCode": "",
+        "SubTitle": ""
+      },
+      {
+        "CommodityId": "7a653f37-260b-4665-8978-1c5f8debe323",
+        "CommodityCode": "1002435",
+        "CommodityName": "海南黑美人西瓜1个约2.5kg/个（GD）",
+        "State": "1",
+        "StateText": "上架",
+        "OriginalPrice": "29.90",
+        "CommodityPrice": "25.00",
+        "Spec": "1个/箱",
+        "BrandName": "",
+        "SmallPic": "http://img13.yiguoimg.com/e/items/2016/160229/9288692604313693_300.jpg",
+        "ShowOriginalPrice": "1",
+        "MaxLimitCount": "20",
+        "CategoryId": "1e17a99d-ca4b-49be-908b-93c8faa20baf",
+        "CategoryCode": "",
+        "SubTitle": "",
+        "Promotions": [
+          {
+            "SaleFlag": "8",
+            "SaleText": "购买分类下商品，满 138 元 减 20 元",
+            "LinkType": "0",
+            "LinkCode": "",
+            "LinkUrl": ""
+          }
+        ]
+      },
+      {
+        "CommodityId": "ee6182cf-afc2-47ea-af4e-1d94ddcc7b11",
+        "CommodityCode": "12902",
+        "CommodityName": "新疆库尔勒香梨2kg约100g/个（GD）",
+        "State": "1",
+        "StateText": "上架",
+        "OriginalPrice": "38.00",
+        "CommodityPrice": "38.00",
+        "Spec": "2kg/组",
+        "BrandName": "",
+        "SmallPic": "http://img05.yiguoimg.com/e/web/151117/161231/151117161231493_12902_300.jpg",
+        "ShowOriginalPrice": "0",
+        "MaxLimitCount": "20",
+        "CategoryId": "1e17a99d-ca4b-49be-908b-93c8faa20baf",
+        "CategoryCode": "",
+        "SubTitle": ""
+      },
+      {
+        "CommodityId": "9d23c0ae-351c-4815-bf7e-1ed219413fc3",
+        "CommodityCode": "1003677",
+        "CommodityName": "广西青芒2个300g以上/个(GD)",
+        "State": "1",
+        "StateText": "上架",
+        "OriginalPrice": "11.90",
+        "CommodityPrice": "11.90",
+        "Spec": "2个/袋",
+        "BrandName": "",
+        "SmallPic": "http://img09.yiguoimg.com/e/items/2016/160414/9288693467029646_300.jpg",
+        "ShowOriginalPrice": "0",
+        "MaxLimitCount": "20",
+        "CategoryId": "1e17a99d-ca4b-49be-908b-93c8faa20baf",
+        "CategoryCode": "",
+        "SubTitle": ""
+      },
+      {
+        "CommodityId": "e00d9169-ba2e-4c72-b8ae-25e2bcadab06",
+        "CommodityCode": "12885",
+        "CommodityName": "河北皇冠梨1kg（GD）",
+        "State": "1",
+        "StateText": "上架",
+        "OriginalPrice": "11.80",
+        "CommodityPrice": "11.80",
+        "Spec": "1kg/组",
+        "BrandName": "",
+        "SmallPic": "http://img05.yiguoimg.com/e/web/151117/161227/151117161227474_12885_300.jpg",
+        "ShowOriginalPrice": "0",
+        "MaxLimitCount": "20",
+        "CategoryId": "1e17a99d-ca4b-49be-908b-93c8faa20baf",
+        "CategoryCode": "",
+        "SubTitle": ""
+      },
+      {
+        "CommodityId": "5e2737f6-0e8f-4be1-b834-280735378448",
+        "CommodityCode": "1002926",
+        "CommodityName": "海南三亚金煌芒果1kg 200g/个起（GD）",
+        "State": "1",
+        "StateText": "上架",
+        "OriginalPrice": "39.00",
+        "CommodityPrice": "39.00",
+        "Spec": "1kg/箱",
+        "BrandName": "",
+        "SmallPic": "http://img09.yiguoimg.com/e/items/2016/160324/9288693076828280_300.jpg",
+        "ShowOriginalPrice": "0",
+        "MaxLimitCount": "20",
+        "CategoryId": "1e17a99d-ca4b-49be-908b-93c8faa20baf",
+        "CategoryCode": "",
+        "SubTitle": "",
+        "Promotions": [
+          {
+            "SaleFlag": "8",
+            "SaleText": "购买分类下商品，满 138 元 减 20 元",
+            "LinkType": "0",
+            "LinkCode": "",
+            "LinkUrl": ""
+          }
+        ]
+      }
+    ]
+  }
+}

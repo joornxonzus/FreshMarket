@@ -1,0 +1,133 @@
+POST http://mapi.yiguo.com/MobileApi.aspx?token=CA0C4043E9594934BB51BCE0AD9D36EB&v=3.8&os=android
+&sign=179db4b08770c55c538bf377d39c71eb HTTP/1.1
+Accept: text/xml;text/html;*/*
+Content-Type: text/xml;charset=utf-8
+Content-Length: 507
+User-Agent: Dalvik/1.6.0 (Linux; U; Android 4.4.4; HM NOTE 1LTE MIUI/6.4.28)
+Host: mapi.yiguo.com
+Connection: Keep-Alive
+Accept-Encoding: gzip
+
+{
+    "Head": {
+        "DeviceId": "d66196be6b7e42ac",
+        "CityId": "0540d74e-0ffb-4a3a-ab79-ec590dd49947",
+        "APICode": "yiguo.mapi.v3.commodity.list.get",
+        "UseGZip": "0",
+        "PageSize": "20",
+        "PageNo": "1",
+        "CityCode": "512",
+        "UserName": "",
+        "MobileOS": "1",
+        "Token": "",
+        "UserId": "",
+        "PageCount": "0",
+        "NetworkType": "wifi",
+        "IMEI": "864981021321969",
+        "RspCode": "1",
+        "RspMsg": "",
+        "MobileOSVer": "HM NOTE 1LTE,4.4.4,19",
+        "PostTime": "2016-05-11 21:36:15",
+        "RspFormat": "1",
+        "Version": "3.8"
+    },
+    "Body": {
+        "Sort": 1,
+        "CategoryCode": "",
+        "Keyword": "菠萝",
+        "CategoryId": ""
+    }
+}
+
+HTTP/1.1 200 OK
+Cache-Control: private
+Content-Length: 2400
+Content-Type: text/html
+Vary: Accept-Encoding
+Server: Microsoft-IIS/7.5
+Set-Cookie: ASP.NET_SessionId=lj4aizyofks4blkeb5vc3shj; path=/; HttpOnly
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+X-Powered-By: ARR/2.5
+X-Powered-By: ASP.NET
+Date: Wed, 11 May 2016 13:36:20 GMT
+
+{
+  "Head": {
+    "Version": "3.8",
+    "PostTime": "2016-05-11 21:36:21",
+    "APICode": "yiguo.mapi.v3.commodity.list.get",
+    "PageNo": "1",
+    "PageSize": "20",
+    "PageCount": "1",
+    "UseGZip": "0",
+    "RspCode": "1",
+    "RspMsg": "OK",
+    "RspFormat": "1",
+    "IMEI": "",
+    "DeviceId": "",
+    "MobileOS": "0",
+    "MobileOSVer": "",
+    "NetworkType": "",
+    "UserId": "",
+    "UserName": "",
+    "CityCode": "512",
+    "CityId": "0540d74e-0ffb-4a3a-ab79-ec590dd49947",
+    "Token": ""
+  },
+  "Body": {
+    "Commoditys": [
+      {
+        "CommodityId": "edc0f7c0-673c-43eb-be04-7acd0c5c7c19",
+        "CommodityCode": "20281",
+        "CommodityName": "宿雾菠萝干",
+        "State": "1",
+        "StateText": "上架",
+        "OriginalPrice": "15.00",
+        "CommodityPrice": "15.0",
+        "Spec": "100g/袋",
+        "BrandName": "",
+        "SmallPic": "http://img06.yiguoimg.com/e/web/151010/135324/151010135324037_20281_300.jpg",
+        "ShowOriginalPrice": "0",
+        "MaxLimitCount": "20",
+        "SubTitle": "",
+        "CommodityTag": "0",
+        "CommodityTagPicture": ""
+      },
+      {
+        "CommodityId": "b210d6f4-b6f9-46fd-afc3-e031c9eb8666",
+        "CommodityCode": "1000015",
+        "CommodityName": "菲律宾凤梨1个装（GD）",
+        "State": "1",
+        "StateText": "上架",
+        "OriginalPrice": "25.00",
+        "CommodityPrice": "25.0",
+        "Spec": "1个/组",
+        "BrandName": "",
+        "SmallPic": "http://img12.yiguoimg.com/e/items/2015/151116/9288689794228080_300.jpg",
+        "ShowOriginalPrice": "0",
+        "MaxLimitCount": "20",
+        "SubTitle": "",
+        "CommodityTag": "0",
+        "CommodityTagPicture": ""
+      },
+      {
+        "CommodityId": "94eb2184-1ced-4bab-a6f3-232ab54559f1",
+        "CommodityCode": "1000016",
+        "CommodityName": "菲律宾凤梨2个（GD）",
+        "State": "1",
+        "StateText": "上架",
+        "OriginalPrice": "45.00",
+        "CommodityPrice": "45.0",
+        "Spec": "2个/箱",
+        "BrandName": "",
+        "SmallPic": "http://img10.yiguoimg.com/e/items/2015/151116/9288689794424688_300.jpg",
+        "ShowOriginalPrice": "0",
+        "MaxLimitCount": "20",
+        "SubTitle": "",
+        "CommodityTag": "0",
+        "CommodityTagPicture": ""
+      }
+    ]
+  }
+}

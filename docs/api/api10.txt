@@ -1,0 +1,498 @@
+POST http://mapi.yiguo.com/MobileApi.aspx?token=CA0C4043E9594934BB51BCE0AD9D36EB&v=3.8&os=android
+&sign=3295276d726e1eca16f6636f0dfe6a2f HTTP/1.1
+Accept: text/xml;text/html;*/*
+Content-Type: text/xml;charset=utf-8
+Content-Length: 537
+User-Agent: Dalvik/1.6.0 (Linux; U; Android 4.4.4; HM NOTE 1LTE MIUI/6.4.28)
+Host: mapi.yiguo.com
+Connection: Keep-Alive
+Accept-Encoding: gzip
+
+{
+    "Head": {
+        "DeviceId": "d66196be6b7e42ac",
+        "CityId": "0540d74e-0ffb-4a3a-ab79-ec590dd49947",
+        "APICode": "yiguo.mapi.v3.commodity.list.get",
+        "UseGZip": "0",
+        "PageSize": "20",
+        "PageNo": "1",
+        "CityCode": "512",
+        "UserName": "",
+        "MobileOS": "1",
+        "Token": "",
+        "UserId": "",
+        "PageCount": "0",
+        "NetworkType": "wifi",
+        "IMEI": "864981021321969",
+        "RspCode": "1",
+        "RspMsg": "",
+        "MobileOSVer": "HM NOTE 1LTE,4.4.4,19",
+        "PostTime": "2016-05-11 21:33:14",
+        "RspFormat": "1",
+        "Version": "3.8"
+    },
+    "Body": {
+        "Sort": 1,
+        "CategoryCode": "",
+        "Keyword": "",
+        "CategoryId": "ad7f227d-73c0-44a2-9edd-924006deb134"
+    }
+}
+
+HTTP/1.1 200 OK
+Cache-Control: private
+Content-Length: 15684
+Content-Type: text/html
+Vary: Accept-Encoding
+Server: Microsoft-IIS/7.5
+Set-Cookie: ASP.NET_SessionId=fgi0dvhzrrnfv0o1vtqxlc0k; path=/; HttpOnly
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+X-Powered-By: ARR/2.5
+X-Powered-By: ASP.NET
+Date: Wed, 11 May 2016 13:33:19 GMT
+
+{
+  "Head": {
+    "Version": "3.8",
+    "PostTime": "2016-05-11 21:33:20",
+    "APICode": "yiguo.mapi.v3.commodity.list.get",
+    "PageNo": "1",
+    "PageSize": "20",
+    "PageCount": "3",
+    "UseGZip": "0",
+    "RspCode": "1",
+    "RspMsg": "OK",
+    "RspFormat": "1",
+    "IMEI": "",
+    "DeviceId": "",
+    "MobileOS": "0",
+    "MobileOSVer": "",
+    "NetworkType": "",
+    "UserId": "",
+    "UserName": "",
+    "CityCode": "512",
+    "CityId": "0540d74e-0ffb-4a3a-ab79-ec590dd49947",
+    "Token": ""
+  },
+  "Body": {
+    "Commoditys": [
+      {
+        "CommodityId": "910edf22-056b-4405-8e60-2612e57a08fd",
+        "CommodityCode": "1003569",
+        "CommodityName": "新奇士美国晚季脐橙20个约180g/个(GD)",
+        "State": "1",
+        "StateText": "上架",
+        "OriginalPrice": "99.00",
+        "CommodityPrice": "99.0",
+        "Spec": "20个/箱",
+        "BrandName": "",
+        "SmallPic": "http://img10.yiguoimg.com/e/items/2016/160411/9288693377179787_300.jpg",
+        "ShowOriginalPrice": "0",
+        "MaxLimitCount": "20",
+        "SubTitle": "",
+        "CommodityTag": "2",
+        "CommodityTagPicture": "http://img02.yiguo.com/e/web/130101/app/proms/2.png"
+      },
+      {
+        "CommodityId": "f7d37f84-5ac7-47fc-a4b6-c212b6f08c28",
+        "CommodityCode": "1003568",
+        "CommodityName": "新奇士美国晚季脐橙12个约180g/个(GD)",
+        "State": "1",
+        "StateText": "上架",
+        "OriginalPrice": "65.00",
+        "CommodityPrice": "65.0",
+        "Spec": "12个/箱",
+        "BrandName": "",
+        "SmallPic": "http://img10.yiguoimg.com/e/items/2016/160411/9288693377179787_300.jpg",
+        "ShowOriginalPrice": "0",
+        "MaxLimitCount": "20",
+        "SubTitle": "",
+        "CommodityTag": "2",
+        "CommodityTagPicture": "http://img02.yiguo.com/e/web/130101/app/proms/2.png"
+      },
+      {
+        "CommodityId": "5ac8e99c-30e1-4b03-a6f6-dd8493e7b834",
+        "CommodityCode": "1003567",
+        "CommodityName": "新奇士美国晚季脐橙4个约180g/个(GD)",
+        "State": "1",
+        "StateText": "上架",
+        "OriginalPrice": "23.00",
+        "CommodityPrice": "13.8",
+        "Spec": "4个/袋",
+        "BrandName": "",
+        "SmallPic": "http://img10.yiguoimg.com/e/items/2016/160411/9288693377179787_300.jpg",
+        "ShowOriginalPrice": "1",
+        "MaxLimitCount": "20",
+        "SubTitle": "",
+        "CommodityTag": "2",
+        "CommodityTagPicture": "http://img02.yiguo.com/e/web/130101/app/proms/2.png",
+        "Promotions": [
+          {
+            "SaleFlag": "8",
+            "SaleText": "购买分类下商品，满 138 元 减 20 元",
+            "LinkType": "0",
+            "LinkCode": "",
+            "LinkUrl": "",
+            "RuleId": "60f062c7-ff45-4956-b5aa-dd33b8b6579a"
+          },
+          {
+            "SaleFlag": "4",
+            "SaleText": "手机专享商品，价格比网站更给力",
+            "LinkType": "0",
+            "LinkCode": "",
+            "LinkUrl": "",
+            "RuleId": ""
+          }
+        ]
+      },
+      {
+        "CommodityId": "92a9ab03-a3bc-42d2-9995-0dfab2837b16",
+        "CommodityCode": "1003533",
+        "CommodityName": "泰国椰皇4个装(GD)",
+        "State": "1",
+        "StateText": "上架",
+        "OriginalPrice": "54.00",
+        "CommodityPrice": "54.0",
+        "Spec": "4个/箱",
+        "BrandName": "",
+        "SmallPic": "http://img09.yiguoimg.com/e/items/2016/160413/9288693433639053_300.jpg",
+        "ShowOriginalPrice": "0",
+        "MaxLimitCount": "20",
+        "SubTitle": "",
+        "CommodityTag": "2",
+        "CommodityTagPicture": "http://img02.yiguo.com/e/web/130101/app/proms/2.png"
+      },
+      {
+        "CommodityId": "b1486d78-685c-42f2-ab14-1c96aad8a0c0",
+        "CommodityCode": "1004378",
+        "CommodityName": "Zespri佳沛新西兰阳光金奇异果6个134-175g/个",
+        "State": "1",
+        "StateText": "上架",
+        "OriginalPrice": "79.00",
+        "CommodityPrice": "79.0",
+        "Spec": "6个/组",
+        "BrandName": "",
+        "SmallPic": "http://img09.yiguoimg.com/e/items/2016/160510/9288694048563370_300.jpg",
+        "ShowOriginalPrice": "0",
+        "MaxLimitCount": "20",
+        "SubTitle": "",
+        "CommodityTag": "2",
+        "CommodityTagPicture": "http://img02.yiguo.com/e/web/130101/app/proms/2.png"
+      },
+      {
+        "CommodityId": "8001679b-631d-4467-922a-1caaeb170222",
+        "CommodityCode": "1003215",
+        "CommodityName": "泰国红毛丹1kg（GD）",
+        "State": "1",
+        "StateText": "上架",
+        "OriginalPrice": "73.00",
+        "CommodityPrice": "73.0",
+        "Spec": "1kg/箱",
+        "BrandName": "",
+        "SmallPic": "http://img13.yiguoimg.com/e/items/2016/160331/9288693174935679_300.jpg",
+        "ShowOriginalPrice": "0",
+        "MaxLimitCount": "20",
+        "SubTitle": "",
+        "CommodityTag": "0",
+        "CommodityTagPicture": ""
+      },
+      {
+        "CommodityId": "3b9484bc-65ec-4ff3-9c64-1d551e16a3a8",
+        "CommodityCode": "1002918",
+        "CommodityName": "智利黑布林2.5kg约95g/个（GD）",
+        "State": "1",
+        "StateText": "上架",
+        "OriginalPrice": "126.00",
+        "CommodityPrice": "126.0",
+        "Spec": "2.5kg/箱",
+        "BrandName": "",
+        "SmallPic": "http://img10.yiguoimg.com/e/items/2016/160203/9288692266410051_300.jpg",
+        "ShowOriginalPrice": "0",
+        "MaxLimitCount": "20",
+        "SubTitle": "",
+        "CommodityTag": "0",
+        "CommodityTagPicture": ""
+      },
+      {
+        "CommodityId": "56cf3566-f708-4239-9ab0-25f005fa8a85",
+        "CommodityCode": "1003216",
+        "CommodityName": "泰国红毛丹2kg（GD）",
+        "State": "1",
+        "StateText": "上架",
+        "OriginalPrice": "138.00",
+        "CommodityPrice": "138.0",
+        "Spec": "2kg/箱",
+        "BrandName": "",
+        "SmallPic": "http://img13.yiguoimg.com/e/items/2016/160331/9288693174935679_300.jpg",
+        "ShowOriginalPrice": "0",
+        "MaxLimitCount": "20",
+        "SubTitle": "",
+        "CommodityTag": "0",
+        "CommodityTagPicture": ""
+      },
+      {
+        "CommodityId": "e7f4a49d-2c1a-42b1-8349-292fbbdade4c",
+        "CommodityCode": "1000859",
+        "CommodityName": "厄瓜多尔香蕉8根（GD）",
+        "State": "1",
+        "StateText": "上架",
+        "OriginalPrice": "29.00",
+        "CommodityPrice": "29.0",
+        "Spec": "8根/袋",
+        "BrandName": "",
+        "SmallPic": "http://img13.yiguoimg.com/e/items/2015/151222/9288691275276182_300.jpg",
+        "ShowOriginalPrice": "0",
+        "MaxLimitCount": "20",
+        "SubTitle": "",
+        "CommodityTag": "0",
+        "CommodityTagPicture": ""
+      },
+      {
+        "CommodityId": "2957b2c0-6ebd-4362-ac63-30245465a5de",
+        "CommodityCode": "1002434",
+        "CommodityName": "智利黑提1kg（GD）",
+        "State": "1",
+        "StateText": "上架",
+        "OriginalPrice": "49.00",
+        "CommodityPrice": "49.0",
+        "Spec": "1kg/盒",
+        "BrandName": "",
+        "SmallPic": "http://img14.yiguoimg.com/e/items/2016/160229/9288692608835677_300.jpg",
+        "ShowOriginalPrice": "0",
+        "MaxLimitCount": "20",
+        "SubTitle": "",
+        "CommodityTag": "0",
+        "CommodityTagPicture": ""
+      },
+      {
+        "CommodityId": "98511b8d-f514-4df1-9362-532ef9bbf437",
+        "CommodityCode": "1003907",
+        "CommodityName": "Zespri佳沛新西兰阳光金奇异果8个114-134g/个",
+        "State": "1",
+        "StateText": "上架",
+        "OriginalPrice": "88.00",
+        "CommodityPrice": "78.0",
+        "Spec": "8个/组",
+        "BrandName": "",
+        "SmallPic": "http://img12.yiguoimg.com/e/items/2016/160428/9288693800575132_300.jpg",
+        "ShowOriginalPrice": "1",
+        "MaxLimitCount": "20",
+        "SubTitle": "",
+        "CommodityTag": "2",
+        "CommodityTagPicture": "http://img02.yiguo.com/e/web/130101/app/proms/2.png",
+        "Promotions": [
+          {
+            "SaleFlag": "4",
+            "SaleText": "手机专享商品，价格比网站更给力",
+            "LinkType": "0",
+            "LinkCode": "",
+            "LinkUrl": "",
+            "RuleId": ""
+          }
+        ]
+      },
+      {
+        "CommodityId": "f5f6bfed-2e33-4494-b08d-692ef76c6dbb",
+        "CommodityCode": "1002660",
+        "CommodityName": "泰国山竹2kg（GD）",
+        "State": "1",
+        "StateText": "上架",
+        "OriginalPrice": "78.00",
+        "CommodityPrice": "78.0",
+        "Spec": "2kg/箱",
+        "BrandName": "",
+        "SmallPic": "http://img13.yiguoimg.com/e/items/2016/160308/9288692762419304_300.jpg",
+        "ShowOriginalPrice": "0",
+        "MaxLimitCount": "20",
+        "SubTitle": "",
+        "CommodityTag": "0",
+        "CommodityTagPicture": ""
+      },
+      {
+        "CommodityId": "2c132c79-74a4-4ead-8c06-69da85934bb9",
+        "CommodityCode": "1001819",
+        "CommodityName": "智利牛油果4个130-170g/个（GD）",
+        "State": "1",
+        "StateText": "上架",
+        "OriginalPrice": "38.00",
+        "CommodityPrice": "38.0",
+        "Spec": "4个/袋",
+        "BrandName": "",
+        "SmallPic": "http://img09.yiguoimg.com/e/items/2016/160120/9288691866050612_300.jpg",
+        "ShowOriginalPrice": "0",
+        "MaxLimitCount": "20",
+        "SubTitle": "",
+        "CommodityTag": "0",
+        "CommodityTagPicture": ""
+      },
+      {
+        "CommodityId": "600039f5-a809-426a-aa5d-85ba8644c1f3",
+        "CommodityCode": "1002702",
+        "CommodityName": "智利红提2kg（GD）",
+        "State": "1",
+        "StateText": "上架",
+        "OriginalPrice": "56.00",
+        "CommodityPrice": "56.0",
+        "Spec": "2kg/箱",
+        "BrandName": "",
+        "SmallPic": "http://img09.yiguoimg.com/e/items/2016/160314/9288692900110446_300.jpg",
+        "ShowOriginalPrice": "0",
+        "MaxLimitCount": "20",
+        "SubTitle": "",
+        "CommodityTag": "0",
+        "CommodityTagPicture": ""
+      },
+      {
+        "CommodityId": "7e20959c-1a98-452f-a3ff-b2e91bc571fe",
+        "CommodityCode": "1004115",
+        "CommodityName": "新西兰红玫瑰苹果Jazz12个约150g/个",
+        "State": "1",
+        "StateText": "上架",
+        "OriginalPrice": "59.00",
+        "CommodityPrice": "49.0",
+        "Spec": "12个/盒",
+        "BrandName": "",
+        "SmallPic": "http://img12.yiguoimg.com/e/items/2016/160429/9288693837275293_300.jpg",
+        "ShowOriginalPrice": "1",
+        "MaxLimitCount": "20",
+        "SubTitle": "预计最快发货时间：5月15日",
+        "CommodityTag": "2",
+        "CommodityTagPicture": "http://img02.yiguo.com/e/web/130101/app/proms/2.png",
+        "Promotions": [
+          {
+            "SaleFlag": "4",
+            "SaleText": "手机专享商品，价格比网站更给力",
+            "LinkType": "0",
+            "LinkCode": "",
+            "LinkUrl": "",
+            "RuleId": ""
+          }
+        ]
+      },
+      {
+        "CommodityId": "757ea121-6545-4955-9ca9-b7556d722d20",
+        "CommodityCode": "1002659",
+        "CommodityName": "泰国山竹1kg（GD）",
+        "State": "1",
+        "StateText": "上架",
+        "OriginalPrice": "50.00",
+        "CommodityPrice": "50.0",
+        "Spec": "1kg/箱",
+        "BrandName": "",
+        "SmallPic": "http://img14.yiguoimg.com/e/items/2016/160308/9288692762550376_300.jpg",
+        "ShowOriginalPrice": "0",
+        "MaxLimitCount": "20",
+        "SubTitle": "",
+        "CommodityTag": "0",
+        "CommodityTagPicture": ""
+      },
+      {
+        "CommodityId": "1aa25100-dc47-4fba-aeb8-cdd71b64dcc2",
+        "CommodityCode": "1002917",
+        "CommodityName": "智利黑布林1kg约95g/个（GD）",
+        "State": "1",
+        "StateText": "上架",
+        "OriginalPrice": "52.00",
+        "CommodityPrice": "22.8",
+        "Spec": "1kg/盒",
+        "BrandName": "",
+        "SmallPic": "http://img10.yiguoimg.com/e/items/2016/160203/9288692266410051_300.jpg",
+        "ShowOriginalPrice": "1",
+        "MaxLimitCount": "20",
+        "SubTitle": "",
+        "CommodityTag": "0",
+        "CommodityTagPicture": "",
+        "Promotions": [
+          {
+            "SaleFlag": "8",
+            "SaleText": "购买分类下商品，满 138 元 减 20 元",
+            "LinkType": "0",
+            "LinkCode": "",
+            "LinkUrl": "",
+            "RuleId": "60f062c7-ff45-4956-b5aa-dd33b8b6579a"
+          },
+          {
+            "SaleFlag": "4",
+            "SaleText": "手机专享商品，价格比网站更给力",
+            "LinkType": "0",
+            "LinkCode": "",
+            "LinkUrl": "",
+            "RuleId": ""
+          }
+        ]
+      },
+      {
+        "CommodityId": "d93cdad2-2a36-4dc9-bf7b-36965c8f1d22",
+        "CommodityCode": "11383",
+        "CommodityName": "Zespri佳沛新西兰阳光金奇异果18个原箱",
+        "State": "1",
+        "StateText": "上架",
+        "OriginalPrice": "298.00",
+        "CommodityPrice": "298.0",
+        "Spec": "18个/箱",
+        "BrandName": "ZESPRI",
+        "SmallPic": "http://img14.yiguoimg.com/e/items/2016/160505/9288693951963301_300.jpg",
+        "ShowOriginalPrice": "0",
+        "MaxLimitCount": "20",
+        "SubTitle": "预售商品，最快发货时间：5月14日",
+        "CommodityTag": "0",
+        "CommodityTagPicture": "",
+        "Promotions": [
+          {
+            "SaleFlag": "2",
+            "SaleText": "原箱预售！Zespri佳沛新西兰阳光金奇异果18个装，用券立减30元！",
+            "LinkType": "0",
+            "LinkCode": "",
+            "LinkUrl": "",
+            "RuleId": ""
+          }
+        ]
+      },
+      {
+        "CommodityId": "7f7e68d4-fb2d-49e7-b87a-f053cc3cce2e",
+        "CommodityCode": "1002834",
+        "CommodityName": "智利黑提2kg（GD）",
+        "State": "1",
+        "StateText": "上架",
+        "OriginalPrice": "109.00",
+        "CommodityPrice": "109.0",
+        "Spec": "2kg/盒",
+        "BrandName": "",
+        "SmallPic": "http://img12.yiguoimg.com/e/items/2016/160308/9288692757536872_300.jpg",
+        "ShowOriginalPrice": "0",
+        "MaxLimitCount": "20",
+        "SubTitle": "",
+        "CommodityTag": "0",
+        "CommodityTagPicture": ""
+      },
+      {
+        "CommodityId": "98094699-8310-4600-b4d1-604363573141",
+        "CommodityCode": "12881",
+        "CommodityName": "泰国椰青4个（GD）",
+        "State": "1",
+        "StateText": "上架",
+        "OriginalPrice": "52.00",
+        "CommodityPrice": "49.9",
+        "Spec": "4个/组",
+        "BrandName": "",
+        "SmallPic": "http://img14.yiguoimg.com/e/items/2016/160511/9288694078611627_300.jpg",
+        "ShowOriginalPrice": "1",
+        "MaxLimitCount": "20",
+        "SubTitle": "",
+        "CommodityTag": "0",
+        "CommodityTagPicture": "",
+        "Promotions": [
+          {
+            "SaleFlag": "8",
+            "SaleText": "购买分类下商品，满 138 元 减 20 元",
+            "LinkType": "0",
+            "LinkCode": "",
+            "LinkUrl": "",
+            "RuleId": "60f062c7-ff45-4956-b5aa-dd33b8b6579a"
+          }
+        ]
+      }
+    ]
+  }
+}

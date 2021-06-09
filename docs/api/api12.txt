@@ -1,0 +1,144 @@
+POST http://mapi.yiguo.com/MobileApi.aspx?token=CA0C4043E9594934BB51BCE0AD9D36EB&v=3.8&os=android
+&sign=140fc09044e9235743aba058c0b27484 HTTP/1.1
+Accept: text/xml;text/html;*/*
+Content-Type: text/xml;charset=utf-8
+Content-Length: 514
+User-Agent: Dalvik/1.6.0 (Linux; U; Android 4.4.4; HM NOTE 1LTE MIUI/6.4.28)
+Host: mapi.yiguo.com
+Connection: Keep-Alive
+Accept-Encoding: gzip
+
+{
+    "Head": {
+        "DeviceId": "d66196be6b7e42ac",
+        "CityId": "0540d74e-0ffb-4a3a-ab79-ec590dd49947",
+        "APICode": "yiguo.mapi.v3.commodity.get",
+        "UseGZip": "0",
+        "PageSize": "20",
+        "PageNo": "1",
+        "CityCode": "512",
+        "UserName": "",
+        "MobileOS": "1",
+        "Token": "",
+        "UserId": "",
+        "PageCount": "0",
+        "NetworkType": "wifi",
+        "IMEI": "864981021321969",
+        "RspCode": "1",
+        "RspMsg": "",
+        "MobileOSVer": "HM NOTE 1LTE,4.4.4,19",
+        "PostTime": "2016-05-12 06:19:53",
+        "RspFormat": "1",
+        "Version": "3.8"
+    },
+    "Body": {
+        "NetworkType": "wifi",
+        "CommodityId": "69664ad1-6563-462b-b688-1058abdcce55"
+    }
+}
+
+HTTP/1.1 200 OK
+Cache-Control: private
+Content-Length: 2975
+Content-Type: text/html
+Vary: Accept-Encoding
+Server: Microsoft-IIS/7.5
+Set-Cookie: ASP.NET_SessionId=osiwxnc0lkmlig12r5l1mmkj; path=/; HttpOnly
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+X-Powered-By: ARR/2.5
+X-Powered-By: ASP.NET
+Date: Wed, 11 May 2016 22:19:58 GMT
+
+{
+  "Head": {
+    "Version": "3.8",
+    "PostTime": "2016-05-12 06:19:58",
+    "APICode": "yiguo.mapi.v3.commodity.get",
+    "PageNo": "0",
+    "PageSize": "0",
+    "PageCount": "0",
+    "UseGZip": "0",
+    "RspCode": "1",
+    "RspMsg": "OK",
+    "RspFormat": "1",
+    "IMEI": "",
+    "DeviceId": "",
+    "MobileOS": "0",
+    "MobileOSVer": "",
+    "NetworkType": "",
+    "UserId": "",
+    "UserName": "",
+    "CityCode": "512",
+    "CityId": "0540d74e-0ffb-4a3a-ab79-ec590dd49947",
+    "Token": ""
+  },
+  "Body": {
+    "CommodityId": "69664ad1-6563-462b-b688-1058abdcce55",
+    "CommodityCode": "12061",
+    "CommodityName": "云南夏黑葡萄1kg",
+    "OriginalPrice": "48.00",
+    "CommodityPrice": "29.90",
+    "State": "1",
+    "StateText": "上架",
+    "Spec": "1kg/组",
+    "BrandName": "",
+    "PlaceOfOrigin": "云南",
+    "DeliveryAreas": "广州,广州+",
+    "DefaultAreaText": "",
+    "CloseTimeText": "16:00",
+    "DeliveryDateText": "2016-05-13",
+    "CanNoReasonToReturn": "0",
+    "VotePositiveRate": "83%",
+    "VoteCount": "119",
+    "SubTitle": "",
+    "CommodityTag": "0",
+    "CommodityTagPicture": "",
+    "DescriptionUrl": "http://mapi4.yiguo.com/Aspx/CommodityDetail.aspx?CommodityId=69664ad1-6563-462b-b688-1058abdcce55&CityCode=512&Network=wifi&UserId=",
+    "ShowOriginalPrice": "1",
+    "Speces": [
+      {
+        "CommodityId": "69664ad1-6563-462b-b688-1058abdcce55",
+        "CommodityCode": "12061",
+        "CommodityName": "云南夏黑葡萄1kg",
+        "Spec": "1kg/组"
+      },
+      {
+        "CommodityId": "a90cd3be-d426-4d77-ac72-cf97e3b55cb4",
+        "CommodityCode": "11155",
+        "CommodityName": "云南夏黑葡萄2kg",
+        "Spec": "2kg/箱"
+      }
+    ],
+    "Pictures": [
+      "http://img09.yiguoimg.com/e/items/2016/160504/9288693930893476_500.jpg",
+      "http://img11.yiguoimg.com/e/items/2016/160504/9288693930926244_500.jpg",
+      "http://img13.yiguoimg.com/e/items/2016/160504/9288693930959012_500.jpg"
+    ],
+    "Promotions": [
+      {
+        "SaleFlag": "8",
+        "SaleText": "购买分类下商品，满 138 元 减 20 元",
+        "LinkType": "0",
+        "LinkCode": "",
+        "LinkUrl": "",
+        "RuleId": "60f062c7-ff45-4956-b5aa-dd33b8b6579a"
+      },
+      {
+        "SaleFlag": "4",
+        "SaleText": "手机专享商品，价格比网站更给力",
+        "LinkType": "0",
+        "LinkCode": "",
+        "LinkUrl": "",
+        "RuleId": ""
+      }
+    ],
+    "IsAppOnlyPrice": "1",
+    "MaxLimitCount": "20",
+    "DeliveryTips": "深圳市现货，16:00 前完成订单，预计明日(5月13日)送达",
+    "ShareTitle": "易果 | 云南夏黑葡萄1kg",
+    "ShareContent": "分享自 易果生鲜App ，快去购买吧",
+    "SharePicture": "http://img09.yiguoimg.com/e/items/2016/160504/9288693930893476_500.jpg",
+    "ShareUrl": "http://weixin.m.yiguo.com/product/12061.html"
+  }
+}
