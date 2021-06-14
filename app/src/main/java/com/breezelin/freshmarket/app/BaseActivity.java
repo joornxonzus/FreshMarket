@@ -8,6 +8,8 @@ package com.breezelin.freshmarket.app;
 
 import android.support.v7.app.AppCompatActivity;
 
+import com.umeng.analytics.MobclickAgent;
+
 import cn.jpush.android.api.JPushInterface;
 
 /**
@@ -25,19 +27,25 @@ public class BaseActivity extends AppCompatActivity {
 	/**
 	 * 显示网络请求错误的方法
 	 */
-	protected void showRequestError(){
+	protected void showRequestError() {
 		// TODO: 2016/4/17 进行错误处理
 	}
 
 	@Override
 	protected void onPause() {
 		super.onPause();
+		// 极光统计
 		JPushInterface.onPause(this);
+		// 友盟页面统计
+		MobclickAgent.onPause(this);
 	}
 
 	@Override
 	protected void onResume() {
 		super.onResume();
+		// 极光统计
 		JPushInterface.onResume(this);
+		// 友盟页面统计
+		MobclickAgent.onResume(this);
 	}
 }

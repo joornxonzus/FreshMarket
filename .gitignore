@@ -28,3 +28,8 @@ proguard/
 *.iws
 .idea/
 /.gradle
+/gradle/wrapper/gradle-wrapper.properties
+/app/build
+/build
+/captures
+

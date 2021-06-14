@@ -9,6 +9,8 @@ package com.breezelin.freshmarket.app;
 import android.support.v4.app.Fragment;
 import android.widget.Toast;
 
+import com.umeng.analytics.MobclickAgent;
+
 /**
  * 应用内Fragment的父类
  */
@@ -21,6 +23,20 @@ public class BaseFragment extends Fragment {
 
 	public BaseFragment() {
 		// 必须的公有无参构造
+	}
+
+	@Override
+	public void onResume() {
+		super.onResume();
+		// 友盟页面统计
+		MobclickAgent.onPageStart(TAG);
+	}
+
+	@Override
+	public void onPause() {
+		super.onPause();
+		// 友盟页面统计
+		MobclickAgent.onPageEnd(TAG);
 	}
 
 	// TODO: 2016/4/5 特性定制
